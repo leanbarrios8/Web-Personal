@@ -7,13 +7,11 @@
     max-width: 200px;
   }
 }
-
 @media screen and (max-width: 1200px) {
   .nav1 .navbar-logo {
     max-width: 195px;
   }
 }
-
 @media screen and (max-width: 990px) {
   .nav1 {
     max-width: 990px;
@@ -22,7 +20,6 @@
     max-width: 190px;
   }
 }
-
 @media screen and (max-width: 760px) {
   .nav1 {
     max-width: 760px;
@@ -31,7 +28,6 @@
     max-width: 180px;
   }
 }
-
 @media screen and (max-width: 570px) {
   .nav1 {
     max-width: 570px;
@@ -40,7 +36,6 @@
     max-width: 180px;
   }
 }
-
 @media screen and (max-width: 370px) {
   .nav1 {
     max-width: 370px;
@@ -49,20 +44,17 @@
     max-width: 170px;
   }
 }
-
 /* NAV2 */
 @media screen and (max-width: 1400px) {
   .nav2 .navbar2-logo {
     max-width: 200px;
   }
 }
-
 @media screen and (max-width: 1200px) {
   .nav2 .navbar2-logo {
     max-width: 190px;
   }
 }
-
 @media screen and (max-width: 990px) {
   .nav2 {
     max-width: 990px;
@@ -71,7 +63,6 @@
     max-width: 180px;
   }
 }
-
 @media screen and (max-width: 760px) {
   .nav2 {
     max-width: 760px;
@@ -80,7 +71,6 @@
     max-width: 170px;
   }
 }
-
 @media screen and (max-width: 570px) {
   .nav2 {
     max-width: 570px;
@@ -89,7 +79,6 @@
     max-width: 160px;
   }
 }
-
 @media screen and (max-width: 370px) {
   .nav2 {
     max-width: 370px;
@@ -98,7 +87,6 @@
     max-width: 150px;
   }
 }
-
 /* BOTON FLOTANTE */
 @media screen and (max-width: 1400px) {
   .btn-flotante {
@@ -108,7 +96,6 @@
     padding: 2px 20px;
   }
 }
-
 @media screen and (max-width: 1200px) {
   .btn-flotante {
     font-size: 41px;
@@ -117,7 +104,6 @@
     padding: 2px 20px;
   }
 }
-
 @media screen and (max-width: 992px) {
   .btn-flotante {
     font-size: 41px;
@@ -126,19 +112,16 @@
     padding: 2px 20px;
   }
 }
-
 @media screen and (max-width: 768px) {
   .btn-flotante {
     display: none;
   }
 }
-
 @media screen and (max-width: 576px) {
   .btn-flotante {
     display: none;
   }
 }
-
 /* INICIO */
 @media screen and (max-width: 1400px) {
   .inicio {
@@ -152,23 +135,22 @@
     padding-top: 1%;
   }
 }
-
 @media screen and (max-width: 1200px) {
   .inicio {
     height: 50vh;
   }
   .inicio .inicio-img {
-    display: block;
+    display: none;
     padding-top: 1%;
   }
   .inicio .inicio-text {
     padding-top: 1%;
   }
 }
-
 @media screen and (max-width: 990px) {
   .inicio {
-    height: 87vh;
+    display: none;
+    height: 47vh;
   }
   .inicio .inicio-img {
     display: none;
@@ -178,7 +160,6 @@
     padding-top: 1%;
   }
 }
-
 @media screen and (max-width: 760px) {
   .inicio {
     height: 47vh;
@@ -192,7 +173,6 @@
     text-align: center;
   }
 }
-
 @media screen and (max-width: 570px) {
   .inicio {
     height: 45vh;
@@ -206,7 +186,6 @@
     text-align: center;
   }
 }
-
 /* MERCADO */
 /* */
 @media screen and (max-width: 1400px) {
@@ -222,13 +201,11 @@
     padding-top: 20%;
   }
 }
-
 @media screen and (max-width: 1200px) {
   .mercado {
     padding-top: 5%;
   }
 }
-
 @media screen and (max-width: 990px) {
   .mercado {
     padding-top: 5%;
@@ -239,7 +216,6 @@
     margin-top: 2%;
   }
 }
-
 @media screen and (max-width: 760px) {
   .mercado {
     padding-top: 5%;
@@ -255,7 +231,6 @@
     margin-bottom: -20%;
   }
 }
-
 @media screen and (max-width: 570px) {
   .mercado {
     padding-top: 5%;
@@ -272,7 +247,6 @@
     margin-bottom: -20%;
   }
 }
-
 /* MERCADO2 */
 @media screen and (max-width: 1400px) {
   .mercado2 {
@@ -288,7 +262,6 @@
     padding-bottom: 1.5%;
   }
 }
-
 @media screen and (max-width: 1200px) {
   .mercado2 {
     padding-top: 6%;
@@ -303,7 +276,6 @@
     margin-bottom: 1.7%;
   }
 }
-
 @media screen and (max-width: 990px) {
   .mercado2 {
     padding-top: 6%;
@@ -318,7 +290,6 @@
     margin-bottom: 2%;
   }
 }
-
 @media screen and (max-width: 760px) {
   .mercado2 {
     margin-top: 20%;
@@ -333,14 +304,12 @@
     margin-bottom: 4%;
   }
 }
-
 @media screen and (max-width: 570px) {
   .mercado2 {
     display: none;
     margin-top: 20%;
   }
 }
-
 /* MERCADO3 */
 @media screen and (max-width: 1400px) {
   .mercado3 {
@@ -350,7 +319,6 @@
     padding-top: 22%;
   }
 }
-
 @media screen and (max-width: 1200px) {
   .mercado3 {
     padding-top: 5%;
@@ -359,7 +327,6 @@
     padding-top: 22%;
   }
 }
-
 @media screen and (max-width: 990px) {
   .mercado3 {
     padding-top: 5%;
@@ -368,7 +335,6 @@
     margin-top: -5%;
   }
 }
-
 @media screen and (max-width: 760px) {
   .mercado3 {
     padding-top: 6%;
@@ -377,7 +343,6 @@
     margin-top: -5%;
   }
 }
-
 @media screen and (max-width: 570px) {
   .mercado3 {
     padding-top: 6%;
@@ -386,7 +351,6 @@
     margin-top: -5%;
   }
 }
-
 /* MERCADO4 */
 @media screen and (max-width: 1400px) {
   .mercado4 {
@@ -396,7 +360,6 @@
     padding-top: 22%;
   }
 }
-
 @media screen and (max-width: 1200px) {
   .mercado4 {
     padding-top: 5%;
@@ -405,7 +368,6 @@
     margin-top: -5%;
   }
 }
-
 @media screen and (max-width: 990px) {
   .mercado4 {
     padding-top: 5%;
@@ -414,7 +376,6 @@
     margin-top: -12%;
   }
 }
-
 @media screen and (max-width: 760px) {
   .mercado4 {
     padding-top: 5%;
@@ -423,7 +384,6 @@
     margin-top: -12%;
   }
 }
-
 @media screen and (max-width: 570px) {
   .mercado4 {
     padding-top: 5%;
@@ -432,7 +392,6 @@
     margin-top: -12%;
   }
 }
-
 /* STAKING2 */
 @media screen and (max-width: 1400px) {
   .staking2 {
@@ -442,7 +401,6 @@
     padding-right: -40%;
   }
 }
-
 @media screen and (max-width: 1200px) {
   .staking2 {
     padding-top: 6%;
@@ -454,7 +412,6 @@
     display: none;
   }
 }
-
 @media screen and (max-width: 990px) {
   .staking2 {
     padding-top: 6%;
@@ -466,7 +423,6 @@
     display: none;
   }
 }
-
 @media screen and (max-width: 760px) {
   .staking2 {
     padding-top: 6%;
@@ -476,7 +432,6 @@
     margin-top: 2%;
   }
 }
-
 @media screen and (max-width: 570px) {
   .staking2 {
     padding-top: 6%;
@@ -486,38 +441,32 @@
     margin-top: 2%;
   }
 }
-
 /* STAKING3 */
 @media screen and (max-width: 1400px) {
   .staking3 {
     padding-top: 4%;
   }
 }
-
 @media screen and (max-width: 1200px) {
   .staking3 {
     padding-top: 4%;
   }
 }
-
 @media screen and (max-width: 990px) {
   .staking3 {
     padding-top: 4%;
   }
 }
-
 @media screen and (max-width: 760px) {
   .staking3 {
     margin-top: -20%;
   }
 }
-
 @media screen and (max-width: 570px) {
   .staking3 {
     margin-top: -20%;
   }
 }
-
 /* STAKING4 */
 @media screen and (max-width: 1400px) {
   .staking4 {
@@ -527,7 +476,6 @@
     padding-top: 8%;
   }
 }
-
 @media screen and (max-width: 1200px) {
   .staking4 {
     padding-top: 8%;
@@ -536,7 +484,6 @@
     margin-top: 22%;
   }
 }
-
 @media screen and (max-width: 990px) {
   .staking4 {
     padding-top: 8%;
@@ -548,7 +495,6 @@
     display: none;
   }
 }
-
 @media screen and (max-width: 760px) {
   .staking4 {
     padding-top: 8%;
@@ -563,7 +509,6 @@
     display: none;
   }
 }
-
 @media screen and (max-width: 570px) {
   .staking4 {
     padding-top: 8%;
@@ -578,7 +523,6 @@
     display: none;
   }
 }
-
 /* EARN1 */
 @media screen and (max-width: 1400px) {
   .earn1 {
@@ -588,7 +532,6 @@
     padding-top: 16%;
   }
 }
-
 @media screen and (max-width: 1200px) {
   .earn1 {
     padding-top: 6%;
@@ -597,7 +540,6 @@
     padding-top: 16%;
   }
 }
-
 @media screen and (max-width: 990px) {
   .earn1 {
     padding-top: 6%;
@@ -606,7 +548,6 @@
     margin-top: -8%;
   }
 }
-
 @media screen and (max-width: 760px) {
   .earn1 {
     padding-top: 6%;
@@ -615,7 +556,6 @@
     margin-top: -6%;
   }
 }
-
 @media screen and (max-width: 570px) {
   .earn1 {
     padding-top: 6%;
@@ -624,7 +564,6 @@
     margin-top: -6%;
   }
 }
-
 /* EARN2 */
 @media screen and (max-width: 1400px) {
   .eanr2 {
@@ -639,7 +578,6 @@
     padding-left: 4%;
   }
 }
-
 @media screen and (max-width: 1200px) {
   .eanr2 {
     padding-top: 5%;
@@ -653,7 +591,6 @@
     padding-left: 4%;
   }
 }
-
 @media screen and (max-width: 990px) {
   .eanr2 {
     padding-top: 5%;
@@ -667,50 +604,42 @@
     padding-left: 4%;
   }
 }
-
 @media screen and (max-width: 760px) {
   .eanr2 {
     display: none;
   }
 }
-
 @media screen and (max-width: 570px) {
   .eanr2 {
     display: none;
   }
 }
-
 /* EARN3 */
 @media screen and (max-width: 1400px) {
   .earn3 {
     padding-top: 4%;
   }
 }
-
 @media screen and (max-width: 1200px) {
   .earn3 {
     padding-top: 4%;
   }
 }
-
 @media screen and (max-width: 990px) {
   .earn3 {
     padding-top: 2%;
   }
 }
-
 @media screen and (max-width: 760px) {
   .earn3 {
     margin-top: -20%;
   }
 }
-
 @media screen and (max-width: 570px) {
   .earn3 {
     margin-top: -25%;
   }
 }
-
 /* CONTACT2 */
 @media screen and (max-width: 1400px) {
   .contact2 {
@@ -723,7 +652,6 @@
     cursor: pointer;
   }
 }
-
 @media screen and (max-width: 1200px) {
   .contact2 {
     padding-top: 4%;
@@ -732,7 +660,6 @@
     margin-top: -6%;
   }
 }
-
 @media screen and (max-width: 990px) {
   .contact2 {
     padding-top: 4%;
@@ -744,7 +671,6 @@
     margin-top: 2%;
   }
 }
-
 @media screen and (max-width: 760px) {
   .contact2 {
     padding-top: 4%;
@@ -757,7 +683,6 @@
     margin-top: 2%;
   }
 }
-
 @media screen and (max-width: 570px) {
   .contact2 {
     padding-top: 4%;
@@ -770,7 +695,6 @@
     margin-top: 2%;
   }
 }
-
 /* CONTACT4 */
 @media screen and (max-width: 1400px) {
   .contact4 {
@@ -784,7 +708,6 @@
     display: none;
   }
 }
-
 @media screen and (max-width: 1200px) {
   .contact4 {
     margin-top: 6%;
@@ -797,7 +720,6 @@
     display: none;
   }
 }
-
 @media screen and (max-width: 992px) {
   .contact4 {
     margin-top: 6%;
@@ -810,7 +732,6 @@
     display: none;
   }
 }
-
 @media screen and (max-width: 768px) {
   .contact4 {
     margin-top: 6%;
@@ -823,7 +744,6 @@
     display: none;
   }
 }
-
 @media screen and (max-width: 576px) {
   .contact4 {
     margin-top: 6%;
@@ -835,5 +755,4 @@
   .contact4 .contact4-boton2 {
     display: none;
   }
-}
-/*# sourceMappingURL=media.css.map */
+}/*# sourceMappingURL=media.css.map */
