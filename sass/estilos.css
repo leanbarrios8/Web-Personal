@@ -176,12 +176,12 @@ p {
 }
 
 /*
-        MERCADO
+        PROYECTO
 */
-.mercado {
+.proyecto {
   padding-top: 5%;
 }
-.mercado .mercado-cell img {
+.proyecto .proyecto-cell img {
   margin-top: -3%;
   animation-name: moverderecha;
   animation-timing-function: linear;
@@ -199,40 +199,28 @@ p {
     transform: translate(0px);
   }
 }
-.mercado .mercado-p1 {
+.proyecto .proyecto-p1 {
   height: 10vh;
   padding-top: 30%;
 }
-.mercado .mercado-p2 {
+.proyecto .proyecto-p2 {
   height: 15vh;
   padding-top: 20%;
 }
 
 /**/
-.mercado2 {
-  font-family: "poppins";
-  padding-top: 6%;
-}
-.mercado2 .mercado2-row1 {
-  padding-bottom: 1.5%;
-}
-.mercado2 .mercado2-row2 {
-  padding-bottom: 1.5%;
-}
-.mercado2 .mercado2-row3 {
-  padding-bottom: 1.5%;
-}
 
-.mercado3 {
+.proyecto2 {
   padding-top: 5%;
 }
-.mercado3 .mercado3-img img {
+.proyecto2 .proyecto2-img img {
   margin-top: -3%;
 }
-.mercado3 .mercado3-text {
+.proyecto2 .proyecto2-text {
   padding-top: 22%;
 }
 
+/**/
 .mercado4 {
   padding-top: 5%;
 }
@@ -240,6 +228,7 @@ p {
   padding-top: 22%;
 }
 
+/**/
 .mercado5 {
   padding-top: 5%;
 }
@@ -247,6 +236,7 @@ p {
   padding-top: 22%;
 }
 
+/**/
 .mercado6 {
   padding-top: 5%;
 }
