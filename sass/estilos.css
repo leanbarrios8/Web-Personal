@@ -239,18 +239,13 @@ p {
 /**/
 .proyecto5 {
   font-family: "poppins";
-  padding-top: 5%;
+  padding-top: 6%;
 }
 .proyecto5 .proyecto5-img img {
-  margin-top: -3%;
+  margin-top: 6%;
 }
-.proyecto5 .proyecto5-p1 {
-  height: 10vh;
-  padding-top: 30%;
-}
-.proyecto5 .proyecto5-p2 {
-  height: 15vh;
-  padding-top: 20%;
+.proyecto5 .proyecto5-text {
+  padding-top: 3%;
 }
 
 /**/
