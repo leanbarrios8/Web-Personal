@@ -208,21 +208,14 @@ p {
         PROYECTO
 */
 
-
-
-.proyecto{
+.proyecto1{
     font-family: 'poppins';
-    padding-top: 5%;
-    .proyecto-cell img{
-        margin-top: -3%;
+    padding-top: 6%;
+    .proyecto1-img img{
+        margin-top: 6%;
     }
-    .proyecto-p1{
-        height: 10vh;
-        padding-top: 30%;
-    }
-    .proyecto-p2{
-        height: 15vh;
-        padding-top: 20%;
+    .proyecto1-text{
+        padding-top: 3%;
     }
 }
 
@@ -230,18 +223,12 @@ p {
 
 .proyecto2{
     font-family: 'poppins';
-    padding-top: 8%;
+    padding-top: 6%;
     .proyecto2-img img{
-        padding-left: 35%;
+        margin-top: 5%;
     }
-    .proyecto2-row1{
-        padding-bottom: 1.5%;
-    }
-    .proyecto2-row2{
-        padding-bottom: 1.5%;
-    }
-    .proyecto2-row3{
-        padding-bottom: 1.5%;
+    .proyecto2-text{
+        padding-top: 5%;
     }
 }
 
@@ -249,12 +236,12 @@ p {
 
 .proyecto3{
     font-family: 'poppins';
-    padding-top: 8%;
+    padding-top: 6%;
     .proyecto3-img img{
-        margin-top: -3%;
+        margin-top: 6%;
     }
     .proyecto3-text{
-        padding-top: 5%;
+        padding-top: 3%;
     }
 }
 
@@ -290,16 +277,10 @@ p {
     font-family: 'poppins';
     padding-top: 6%;
     .proyecto6-img img{
-        margin-top: -33%;
+        margin-top: 1%;
     }
-    .proyecto6-row1{
-        padding-bottom: 1.5%;
-    }
-    .proyecto6-row2{
-        padding-bottom: 1.5%;
-    }
-    .proyecto6-row3{
-        padding-bottom: 1.5%;
+    .proyecto6-text{
+        padding-top: 8%;
     }
 }
 
