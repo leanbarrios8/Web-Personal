@@ -33,6 +33,10 @@ p {
 }
 .nav1 .navbar-logo {
   width: 350px;
+  margin-left: -100%;
+}
+.nav1 .navbar-text {
+  padding-left: 200px;
 }
 .nav1 li {
   padding-right: 1%;
@@ -51,6 +55,7 @@ p {
 }
 .nav2 .navbar2-logo {
   width: 350px;
+  margin-left: -100%;
 }
 .nav2 li {
   padding-right: 1%;
