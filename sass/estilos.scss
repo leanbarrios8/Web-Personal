@@ -154,7 +154,7 @@ p {
 }
 
 .inicio{
-    padding-top: 8%;
+    padding-top: 16%;
     animation-name: moverizquierda;
     animation-timing-function: linear;
     animation-duration: 3s;
@@ -223,9 +223,10 @@ p {
 
 .proyecto1{
     font-family: 'poppins';
-    padding-top: 7%;
+    padding-top: 4%;
     .proyecto1-img img{
         margin-top: 6%;
+        margin-left: 15%;
     }
     .proyecto1-text{
         padding-top: 12%;
@@ -290,11 +291,11 @@ p {
     font-family: 'poppins';
     padding-top: 7%;
     .proyecto6-img img{
-        margin-top: 6%;
+        margin-top: 5%;
         margin-left: 25%;
     }
     .proyecto6-text{
-        padding-top: 13%;
+        padding-top: 10%;
     }
 }
 
