@@ -14,6 +14,10 @@
   background-color: #cccccc;
 }
 
+a.text-reset {
+  text-decoration: none;
+}
+
 /* DECLARACION DE VARIABLES */
 h1 {
   font-size: 4em;
@@ -253,6 +257,7 @@ p {
 }
 .proyecto6 .proyecto6-img img {
   margin-top: 6%;
+  margin-left: 25%;
 }
 .proyecto6 .proyecto6-text {
   padding-top: 13%;

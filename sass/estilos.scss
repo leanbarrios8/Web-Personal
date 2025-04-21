@@ -16,6 +16,10 @@
     background-color:#cccccc;
 }
 
+a.text-reset {
+    text-decoration: none;
+}
+
 /* DECLARACION DE VARIABLES */
 
 $color-blex: #67AEDB;
@@ -287,6 +291,7 @@ p {
     padding-top: 7%;
     .proyecto6-img img{
         margin-top: 6%;
+        margin-left: 25%;
     }
     .proyecto6-text{
         padding-top: 13%;
