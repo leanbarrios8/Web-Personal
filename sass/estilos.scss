@@ -215,84 +215,82 @@ p {
         transform: translate(0px);
     }
 }
-    .inicio-text{
-        height: 50vh;
-        animation-name: extraindex;
-        animation-duration: 2.5s;
-        animation-delay: 0s;
+.inicio-text{
+    height: 50vh;
+    animation-name: extraindex;
+    animation-duration: 2.5s;
+    animation-delay: 0s;
+    }
+    @keyframes extraindex {
+        0%{
+            height: 100vh;
         }
-        @keyframes extraindex {
-            0%{
-                height: 100vh;
-            }
-            100%{
-                height: 50vh;
-            }
+        100%{
+            height: 50vh;
         }
-        .inicio1{
-            padding-top: 10%;
-        }
-        .inicio2{
-            height: 15vh;
-        }
-        .inicio-img{
-            padding-top: 1%;
-            border-radius: 50%;
-        }
-        .yo-img{
-            border-radius: 50%;
-        }
+    }
+    .inicio1{
+        padding-top: 10%;
+    }
+    .inicio2{
+        height: 15vh;
+    }
+    .inicio-img{
+        padding-top: 1%;
+        border-radius: 50%;
+    }
+    .yo-img{
+        border-radius: 50%;
+    }
 
-    .btn-flotante {
-        color: $color-lean; 
-        background-color: black; 
-        position: fixed;
-        font-size: 41px; 
-        border-radius: 5px; 
-        letter-spacing: 2px;  
-        padding: 2px 20px; 
-        bottom: 40px;
-        right: 40px;
-        transition: all 300ms ease 0ms;
-        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-        z-index: 99;
-        }
+.btn-flotante {
+    color: $color-lean; 
+    background-color: black; 
+    position: fixed;
+    font-size: 41px; 
+    border-radius: 5px; 
+    letter-spacing: 2px;  
+    padding: 2px 20px; 
+    bottom: 40px;
+    right: 40px;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+}
 
+.btn-flotante:hover {
+    background-color: white; /* Color de fondo al pasar el cursor */
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-7px);
+}
 
-    .btn-flotante:hover {
-        background-color: white; /* Color de fondo al pasar el cursor */
-        box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
-        transform: translateY(-7px);
-        }
+.linea-flotante {
+    position: relative;
+    transition: all 300ms ease 0ms;
+    z-index: 20;
+    left: 5%;
+}
 
+.linea-programador-fondo {
+    position: fixed;
+    top: 0;
+    left: calc(20% - 200px);
+    width: 10px; /* o el ancho de tu imagen */
+    height: 100%;
+    background-image: url('/img/Linea-discontinua.png');
+    background-repeat: repeat-y;
+    background-position: center;
+    z-index: -1; /* Para que quede detrás del contenido */
+}
 
-        .linea-flotante {
-            position: relative;
-            transition: all 300ms ease 0ms;
-            z-index: 20;
-            left: 5%;
-            }
-        
-        .linea-decoracion-fondo {
-                position: fixed;
-                top: 0;
-                left: calc(20% - 200px);
-                width: 10px; /* o el ancho de tu imagen */
-                height: 100%;
-                background-image: url('/img/Linea-discontinua.png');
-                background-repeat: repeat-y;
-                background-position: center;
-                z-index: -1; /* Para que quede detrás del contenido */
-            }
-
-.decoracion-movimiento{
+.programador-movimiento{
     position: absolute;
     top: -100px;
-    left: calc(20% - 243px);
+    left: calc(20% - 242px);
     animation: moverImagen 20s linear infinite; 
 }
 
-.decoracion-movimiento img {
+.programador-movimiento img {
     display: block;
     width: 94px;
     height: auto;
@@ -301,10 +299,10 @@ p {
 
 @keyframes moverImagen {
     0% {
-        top: -100px; /* Empieza fuera de la pantalla por encima */
+        top: -100px;
     }
     100% {
-        top: 100%; /* Termina fuera de la pantalla por debajo */
+        top: 100%; 
     }
 }
 
@@ -326,8 +324,8 @@ p {
 
 .seccion-ajustada-proyectos {
     scroll-margin-top: 6rem;
-    position: relative; /* clave: limita el movimiento al tamaño de esta sección */
-    overflow: hidden; /* oculta lo que se pase del contenedor */
+    position: relative; 
+    overflow: hidden; 
 }
 
 .rectangulo-proyectos {

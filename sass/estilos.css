@@ -242,7 +242,7 @@ p {
   left: 5%;
 }
 
-.linea-decoracion-fondo {
+.linea-programador-fondo {
   position: fixed;
   top: 0;
   left: calc(20% - 200px);
@@ -254,14 +254,14 @@ p {
   z-index: -1; /* Para que quede detrás del contenido */
 }
 
-.decoracion-movimiento {
+.programador-movimiento {
   position: absolute;
   top: -100px;
-  left: calc(20% - 243px);
+  left: calc(20% - 242px);
   animation: moverImagen 20s linear infinite;
 }
 
-.decoracion-movimiento img {
+.programador-movimiento img {
   display: block;
   width: 94px;
   height: auto;
@@ -270,10 +270,10 @@ p {
 
 @keyframes moverImagen {
   0% {
-    top: -100px; /* Empieza fuera de la pantalla por encima */
+    top: -100px;
   }
   100% {
-    top: 100%; /* Termina fuera de la pantalla por debajo */
+    top: 100%;
   }
 }
 @keyframes rotarLeve {
@@ -292,8 +292,8 @@ p {
 */
 .seccion-ajustada-proyectos {
   scroll-margin-top: 6rem;
-  position: relative; /* clave: limita el movimiento al tamaño de esta sección */
-  overflow: hidden; /* oculta lo que se pase del contenedor */
+  position: relative;
+  overflow: hidden;
 }
 
 .rectangulo-proyectos {
