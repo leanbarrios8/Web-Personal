@@ -8,11 +8,11 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
-  list-style: none;
+  list-style: none; /*#cccccc;*/
 }
 
 .body {
-  background-color: #cccccc;
+  background-color: #f4f1eb;
 }
 
 a.text-reset {
@@ -24,7 +24,7 @@ html {
 }
 
 .texto-gradiente {
-  background: linear-gradient(270deg, red, orange, yellow, green, blue, purple);
+  background: linear-gradient(270deg, red, orange, yellow, green, rgb(247, 29, 243), purple);
   background-size: 600% 600%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -60,16 +60,6 @@ html {
     width: 100vw;
   }
 }
-.rectangulo-proyectos {
-  background-color: #f0f0f0; /* Color del rectángulo */
-  padding: 2rem; /* Espacio interno */
-  border: 2px solid #ccc; /* Borde opcional */
-  border-radius: 15px; /* Bordes redondeados */
-  margin: 4rem auto; /* Espaciado externo centrado */
-  max-width: 1200px; /* Ancho máximo para que no se expanda demasiado */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional para efecto "elevado" */
-}
-
 /* DECLARACION DE VARIABLES */
 h1 {
   font-size: 4em;
@@ -245,13 +235,111 @@ p {
   transform: translateY(-7px);
 }
 
+.linea-flotante {
+  position: relative;
+  transition: all 300ms ease 0ms;
+  z-index: 20;
+  left: 5%;
+}
+
+.linea-decoracion-fondo {
+  position: fixed;
+  top: 0;
+  left: calc(20% - 200px);
+  width: 10px; /* o el ancho de tu imagen */
+  height: 100%;
+  background-image: url("/img/Linea-discontinua.png");
+  background-repeat: repeat-y;
+  background-position: center;
+  z-index: -1; /* Para que quede detrás del contenido */
+}
+
+.decoracion-movimiento {
+  position: absolute;
+  top: -100px;
+  left: calc(20% - 243px);
+  animation: moverImagen 20s linear infinite;
+}
+
+.decoracion-movimiento img {
+  display: block;
+  width: 94px;
+  height: auto;
+  animation: rotarLeve 2s ease-in-out infinite;
+}
+
+@keyframes moverImagen {
+  0% {
+    top: -100px; /* Empieza fuera de la pantalla por encima */
+  }
+  100% {
+    top: 100%; /* Termina fuera de la pantalla por debajo */
+  }
+}
+@keyframes rotarLeve {
+  0% {
+    transform: rotate(-7deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-7deg);
+  }
+}
 /*
         PROYECTO
 */
 .seccion-ajustada-proyectos {
   scroll-margin-top: 6rem;
+  position: relative; /* clave: limita el movimiento al tamaño de esta sección */
+  overflow: hidden; /* oculta lo que se pase del contenedor */
 }
 
+.rectangulo-proyectos {
+  position: relative;
+  background-color: #000000;
+  padding: 2rem;
+  border-radius: 15px;
+  margin: 4rem auto;
+  max-width: 1200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.rectangulo-proyectos::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  background: linear-gradient(270deg, red, orange, yellow, green, blue, purple);
+  background-size: 600% 600%;
+  animation: animarGradiente 20s ease infinite;
+  z-index: -1;
+  border-radius: 18px;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+          mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+@keyframes animarGradiente {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 .proyecto1 {
   font-family: "poppins";
 }
@@ -260,7 +348,7 @@ p {
 }
 .proyecto1 .proyecto1-text {
   margin-top: 5%;
-  color: #696969;
+  color: #e0e0e0;
 }
 
 /**/
@@ -272,7 +360,7 @@ p {
 }
 .proyecto2 .proyecto2-text {
   margin-top: 5%;
-  color: #696969;
+  color: #e0e0e0;
 }
 
 /**/
@@ -284,7 +372,7 @@ p {
 }
 .proyecto3 .proyecto3-text {
   margin-top: 5%;
-  color: #696969;
+  color: #e0e0e0;
 }
 
 /**/
@@ -296,7 +384,7 @@ p {
 }
 .proyecto4 .proyecto4-text {
   margin-top: 5%;
-  color: #696969;
+  color: #e0e0e0;
 }
 
 /**/
@@ -308,7 +396,7 @@ p {
 }
 .proyecto5 .proyecto5-text {
   margin-top: 5%;
-  color: #696969;
+  color: #e0e0e0;
 }
 
 /**/
@@ -321,7 +409,7 @@ p {
 }
 .proyecto6 .proyecto6-text {
   margin-top: 5%;
-  color: #696969;
+  color: #e0e0e0;
 }
 
 /*
