@@ -20,10 +20,64 @@ a.text-reset {
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.texto-gradiente {
+    background: linear-gradient(270deg, red, orange, yellow, green, blue, purple);
+    background-size: 600% 600%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+    color: transparent; 
+    animation: animarGradiente 20s ease infinite;
+}
+
+@keyframes animarGradiente {
+    0% {
+    background-position: 0% 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0% 50%;
+    }
+}
+
+.linea-animada {
+    height: 4px;
+    width: 0;
+    background: linear-gradient(270deg, red, orange, yellow, green, blue, purple);
+    background-size: 600% 600%;
+    animation: recorrerLinea 3s ease-out forwards, animarGradiente 20s ease infinite;
+}
+
+@keyframes recorrerLinea {
+    from {
+    width: 0;
+    }
+    to {
+    width: 100vw;
+    }
+}
+
+.rectangulo-proyectos {
+    background-color: #f0f0f0; /* Color del rectángulo */
+    padding: 2rem; /* Espacio interno */
+    border: 2px solid #ccc; /* Borde opcional */
+    border-radius: 15px; /* Bordes redondeados */
+    margin: 4rem auto; /* Espaciado externo centrado */
+    max-width: 1200px; /* Ancho máximo para que no se expanda demasiado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional para efecto "elevado" */
+}
+
 /* DECLARACION DE VARIABLES */
 
-$color-blex: #67AEDB;
+$color-lean: #cccccc;
 $color-blanco: #fff;
+$color-gris: #696969;
 
 $titulos: (
     h1: 4em,
@@ -38,7 +92,7 @@ h1 {
 /* DECLARACION DE CONDICIONALES */
 
 p {
-    @if $color-blex == #67AEDB{
+    @if $color-lean == #cccccc{
         font-family: 'poppins';
     }
 }
@@ -72,7 +126,7 @@ p {
         &:hover{
             transition: all .5s;
             font-size: 21px;
-            border: 6px groove $color-blex;
+            border: 6px groove $color-lean;
             border-radius: 100px;
         }
     }
@@ -93,7 +147,7 @@ p {
         &:hover{
             transition: all .5s;
             font-size: 21px;
-            border: 6px groove $color-blex;
+            border: 6px groove $color-lean;
             border-radius: 100px;
         }
     }
@@ -154,7 +208,7 @@ p {
 }
 
 .inicio{
-    padding-top: 16%;
+    padding-top: 9%;
     animation-name: moverizquierda;
     animation-timing-function: linear;
     animation-duration: 3s;
@@ -193,10 +247,14 @@ p {
         }
         .inicio-img{
             padding-top: 1%;
+            border-radius: 50%;
+        }
+        .yo-img{
+            border-radius: 50%;
         }
 
     .btn-flotante {
-        color: $color-blex; 
+        color: $color-lean; 
         background-color: black; 
         position: fixed;
         font-size: 41px; 
@@ -221,14 +279,18 @@ p {
         PROYECTO
 */
 
+.seccion-ajustada-proyectos {
+    scroll-margin-top: 6rem;
+}
+
 .proyecto1{
     font-family: 'poppins';
-    padding-top: 4%;
     .proyecto1-img img{
-        margin-top: 6%;
+        margin-top: 0%;
     }
     .proyecto1-text{
-        padding-top: 8%;
+        margin-top: 5%;
+        color: $color-gris;
     }
 }
 
@@ -236,12 +298,12 @@ p {
 
 .proyecto2{
     font-family: 'poppins';
-    padding-top: 7%;
     .proyecto2-img img{
-        margin-top: 6%;
+        margin-top: 0%;
     }
     .proyecto2-text{
-        padding-top: 9%;
+        margin-top: 5%;
+        color: $color-gris;
     }
 }
 
@@ -249,12 +311,12 @@ p {
 
 .proyecto3{
     font-family: 'poppins';
-    padding-top: 7%;
     .proyecto3-img img{
-        margin-top: 6%;
+        margin-top: 0%;
     }
     .proyecto3-text{
-        padding-top: 9%;
+        margin-top: 5%;
+        color: $color-gris;
     }
 }
 
@@ -262,12 +324,12 @@ p {
 
 .proyecto4{
     font-family: 'poppins';
-    padding-top: 7%;
     .proyecto4-img img{
-        margin-top: 6%;
+        margin-top: 0%;
     }
     .proyecto4-text{
-        padding-top: 8%;
+        margin-top: 5%;
+        color: $color-gris;
     }
 }
 
@@ -275,12 +337,12 @@ p {
 
 .proyecto5{
     font-family: 'poppins';
-    padding-top: 7%;
     .proyecto5-img img{
-        margin-top: 6%;
+        margin-top: 0%;
     }
     .proyecto5-text{
-        padding-top: 4%;
+        margin-top: 5%;
+        color: $color-gris;
     }
 }
 
@@ -288,13 +350,13 @@ p {
 
 .proyecto6{
     font-family: 'poppins';
-    padding-top: 7%;
     .proyecto6-img img{
-        margin-top: 5%;
-        margin-left: 25%;
+        margin-top: 0%;
+        margin-right: 8rem;
     }
     .proyecto6-text{
-        padding-top: 10%;
+        margin-top: 5%;
+        color: $color-gris;
     }
 }
 
@@ -401,7 +463,7 @@ p {
         margin-bottom: 8%;
         margin-top: -10%;
         text-align: center;
-        color: $color-blex;
+        color: $color-lean;
     }
     .contact4-boton{
         width: 50%;

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* HTML */
 @font-face {
   font-family: "poppins";
@@ -16,6 +17,57 @@
 
 a.text-reset {
   text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.texto-gradiente {
+  background: linear-gradient(270deg, red, orange, yellow, green, blue, purple);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  animation: animarGradiente 20s ease infinite;
+}
+
+@keyframes animarGradiente {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.linea-animada {
+  height: 4px;
+  width: 0;
+  background: linear-gradient(270deg, red, orange, yellow, green, blue, purple);
+  background-size: 600% 600%;
+  animation: recorrerLinea 3s ease-out forwards, animarGradiente 20s ease infinite;
+}
+
+@keyframes recorrerLinea {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100vw;
+  }
+}
+.rectangulo-proyectos {
+  background-color: #f0f0f0; /* Color del rectángulo */
+  padding: 2rem; /* Espacio interno */
+  border: 2px solid #ccc; /* Borde opcional */
+  border-radius: 15px; /* Bordes redondeados */
+  margin: 4rem auto; /* Espaciado externo centrado */
+  max-width: 1200px; /* Ancho máximo para que no se expanda demasiado */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional para efecto "elevado" */
 }
 
 /* DECLARACION DE VARIABLES */
@@ -50,7 +102,7 @@ p {
 .nav1 li:hover {
   transition: all 0.5s;
   font-size: 21px;
-  border: 6px groove #67AEDB;
+  border: 6px groove #cccccc;
   border-radius: 100px;
 }
 
@@ -69,7 +121,7 @@ p {
 .nav2 li:hover {
   transition: all 0.5s;
   font-size: 21px;
-  border: 6px groove #67AEDB;
+  border: 6px groove #cccccc;
   border-radius: 100px;
 }
 
@@ -122,7 +174,7 @@ p {
 }
 
 .inicio {
-  padding-top: 16%;
+  padding-top: 9%;
   animation-name: moverizquierda;
   animation-timing-function: linear;
   animation-duration: 3s;
@@ -165,10 +217,15 @@ p {
 
 .inicio-img {
   padding-top: 1%;
+  border-radius: 50%;
+}
+
+.yo-img {
+  border-radius: 50%;
 }
 
 .btn-flotante {
-  color: #67AEDB;
+  color: #cccccc;
   background-color: black;
   position: fixed;
   font-size: 41px;
@@ -191,76 +248,80 @@ p {
 /*
         PROYECTO
 */
+.seccion-ajustada-proyectos {
+  scroll-margin-top: 6rem;
+}
+
 .proyecto1 {
   font-family: "poppins";
-  padding-top: 4%;
 }
 .proyecto1 .proyecto1-img img {
-  margin-top: 6%;
+  margin-top: 0%;
 }
 .proyecto1 .proyecto1-text {
-  padding-top: 8%;
+  margin-top: 5%;
+  color: #696969;
 }
 
 /**/
 .proyecto2 {
   font-family: "poppins";
-  padding-top: 7%;
 }
 .proyecto2 .proyecto2-img img {
-  margin-top: 6%;
+  margin-top: 0%;
 }
 .proyecto2 .proyecto2-text {
-  padding-top: 9%;
+  margin-top: 5%;
+  color: #696969;
 }
 
 /**/
 .proyecto3 {
   font-family: "poppins";
-  padding-top: 7%;
 }
 .proyecto3 .proyecto3-img img {
-  margin-top: 6%;
+  margin-top: 0%;
 }
 .proyecto3 .proyecto3-text {
-  padding-top: 9%;
+  margin-top: 5%;
+  color: #696969;
 }
 
 /**/
 .proyecto4 {
   font-family: "poppins";
-  padding-top: 7%;
 }
 .proyecto4 .proyecto4-img img {
-  margin-top: 6%;
+  margin-top: 0%;
 }
 .proyecto4 .proyecto4-text {
-  padding-top: 8%;
+  margin-top: 5%;
+  color: #696969;
 }
 
 /**/
 .proyecto5 {
   font-family: "poppins";
-  padding-top: 7%;
 }
 .proyecto5 .proyecto5-img img {
-  margin-top: 6%;
+  margin-top: 0%;
 }
 .proyecto5 .proyecto5-text {
-  padding-top: 4%;
+  margin-top: 5%;
+  color: #696969;
 }
 
 /**/
 .proyecto6 {
   font-family: "poppins";
-  padding-top: 7%;
 }
 .proyecto6 .proyecto6-img img {
-  margin-top: 5%;
-  margin-left: 25%;
+  margin-top: 0%;
+  margin-right: 8rem;
 }
 .proyecto6 .proyecto6-text {
-  padding-top: 10%;
+  margin-top: 5%;
+  color: #696969;
 }
 
 /*
@@ -354,7 +415,7 @@ p {
   margin-bottom: 8%;
   margin-top: -10%;
   text-align: center;
-  color: #67AEDB;
+  color: #cccccc;
 }
 .contact4 .contact4-boton {
   width: 50%;
