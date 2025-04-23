@@ -141,7 +141,7 @@ p {
 }
 
 /*
-        MAIN INDEX
+        MAIN INDEX - PROYECTOS - ANIMACIONES
 */
 .blex-background {
   display: none;
@@ -230,6 +230,7 @@ p {
 }
 
 .btn-flotante:hover {
+  color: #9b00a0;
   background-color: white; /* Color de fondo al pasar el cursor */
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
   transform: translateY(-7px);
@@ -287,9 +288,6 @@ p {
     transform: rotate(-7deg);
   }
 }
-/*
-        PROYECTO
-*/
 .seccion-ajustada-proyectos {
   scroll-margin-top: 6rem;
   position: relative;
@@ -325,7 +323,7 @@ p {
           mask-composite: exclude;
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
-  padding: 4px;
+  padding: 6px;
   box-sizing: border-box;
 }
 
@@ -340,6 +338,21 @@ p {
     background-position: 0% 50%;
   }
 }
+.zoom {
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.zoom:hover {
+  transform: scale(1.4);
+  border-radius: 18px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 4px solid #000000;
+}
+
+/*
+        PROYECTOS
+*/
 .proyecto1 {
   font-family: "poppins";
 }
