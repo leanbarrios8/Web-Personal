@@ -4,6 +4,30 @@
   font-family: "poppins";
   src: url("../assets/fonts/Poppins-Medium.ttf");
 }
+@font-face {
+  font-family: "poppinsB";
+  src: url("../assets/fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "inter";
+  src: url("../assets/fonts/Inter-Medium.ttf");
+}
+@font-face {
+  font-family: "nunito";
+  src: url("../assets/fonts/Nunito-Regular.ttf");
+}
+@font-face {
+  font-family: "nunitoI";
+  src: url("../assets/fonts/Nunito-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "monserrat";
+  src: url("../assets/fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: "playfairBI";
+  src: url("../assets/fonts/PlayfairDisplay-BoldItalic.ttf");
+}
 * {
   padding: 0;
   margin: 0;
@@ -65,11 +89,8 @@ h1 {
   font-size: 4em;
 }
 
-/* DECLARACION DE CONDICIONALES */
-p {
-  font-family: "poppins";
-}
-
+/* DECLARACION DE CONDICIONALES
+} */
 /* MIXINS */
 /*
             HEADER
@@ -83,6 +104,7 @@ p {
 }
 .nav1 .navbar-text {
   padding-left: 200px;
+  font-family: "monserrat";
 }
 .nav1 li {
   padding-right: 1%;
@@ -118,6 +140,10 @@ p {
 /*
             FOOTER
 */
+.footer {
+  font-family: "monserrat";
+}
+
 .flex-footer-text {
   text-align: center;
   height: 40px;
@@ -183,6 +209,7 @@ p {
   }
 }
 .inicio-text {
+  font-family: "poppinsB";
   height: 50vh;
   animation-name: extraindex;
   animation-duration: 2.5s;
@@ -203,6 +230,7 @@ p {
 
 .inicio2 {
   height: 15vh;
+  font-family: "nunito";
 }
 
 .inicio-img {
@@ -437,21 +465,33 @@ p {
   padding-top: 3%;
 }
 .SobreMi .SobreMi-text {
+  color: #cccccc;
+  font-family: "playfairBI";
+  font-size: 2.5rem;
   padding-top: 4%;
 }
 
 /**/
 .SobreMi1 {
   padding-top: 5%;
-  padding-bottom: 4%;
+  padding-bottom: 6%;
 }
 .SobreMi1 .SobreMi1-text {
-  padding-top: 15%;
+  font-family: "nunitoI";
+  margin-top: 0%;
+}
+.SobreMi1 .SobreMi1-text-resumen {
+  font-family: "inter";
+  margin-top: 0%;
 }
 .SobreMi1 .SobreMi1-logo {
   padding-top: 1%;
   padding-left: 4%;
   border-radius: 50%;
+}
+.SobreMi1 .SobreMi1-img {
+  margin-top: 5%;
+  padding-right: 5%;
 }
 
 /*
