@@ -35,6 +35,16 @@
     src: url('../assets/fonts/PlayfairDisplay-BoldItalic.ttf');
 }
 
+@font-face {
+    font-family: 'motterdam';
+    src: url('../assets/fonts/Motterdam-MVanr.ttf');
+}
+
+@font-face {
+    font-family: 'thecrunch';
+    src: url('../assets/fonts/TheCrunch-rvp78.ttf');
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -261,11 +271,15 @@ h1 {
         }
     }
     .inicio1{
-        padding-top: 10%;
+        font-size: 6vw;
+        font-family: 'motterdam';
     }
     .inicio2{
-        height: 15vh;
+        font-size: 0.8vw;
         font-family: 'nunito';
+        padding-bottom: 5vw;
+        margin-top: -1.2vw;
+        text-align: center;
     }
     .inicio-img{
         padding-top: 1%;
@@ -511,7 +525,7 @@ h1 {
 .SobreMi{
     padding-top: 3%;
     .SobreMi-text{
-        color: $color-lean;
+        color: $color-blanco;
         font-family: 'playfairBI';
         font-size: 2.5rem;
         padding-top: 4%;
@@ -522,15 +536,16 @@ h1 {
 /**/
 
 .SobreMi1{
-    padding-top: 5%;
+    padding-top: 2%;
     padding-bottom: 6%;
     .SobreMi1-text{
-        font-family: 'nunitoI';
+        font-family: 'nunito';
+        font-size: 3rem;
         margin-top: 0%;
+        padding-top: 10vh;
     }
     .SobreMi1-text-resumen{
         font-family: 'inter';
-        margin-top: 0%;
     }
     .SobreMi1-logo{
         padding-top: 1%;
@@ -547,83 +562,27 @@ h1 {
         CONTACTO
 */
 
-.contact{
-    padding: 4.5% 0% 4.5% 0%;
-}
-
-/**/
-
-.contact2{
-    padding-top: 4%;
-    .contact2-text{
-        padding-top: 10%;
+.contacto {
+    padding-top: 8vh;
+    padding-left: 18vh;
+    margin-bottom: 15vh;
+    font-family: 'poppins';
+    .contacto-form{
+        padding-right: 18vh;
     }
-    .contact2-store{
-        cursor: pointer;
-    }  
-}
-
-
-/**/
-
-.contact3 {
-    padding-top: 2%;
-    padding-bottom: 1%;
-    color: $color-blanco;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 800;
-}
-
-/**/
-
-
-.contact4{
-    margin-top: 6%;
-    margin-bottom: 5%;
-    .contact4-logo img{
-        margin-top: -3%;
-        animation-name: rotar-btc;
-        animation-iteration-count: 20s;
-        animation-timing-function: linear;
-        animation-duration: 5s;
-        animation-timing-function: 1;
-    }
-    @keyframes rotar-btc {
-        0%{
-            transform: rotatey(0deg);
+    .contacto-text {
+    margin-top: 1vh;
+        .contacto-texto-limitado {
+        max-width: 60%;
+        .contacto-titulo{
+            font-family: 'playfairBI';
         }
-    
-        50%{
-            transform: rotatey(180deg);
+        .contacto-sub-texto{
+            font-family: 'poppins';
         }
-    
-        100%{
-            transform: rotatey(360deg);
         }
     }
-    .contact4-form{
-        padding: 14%;
-    }
-    .contact4-form .row{
-        margin-bottom: -7%;
-    }
-    .contact4-text{
-        margin-bottom: 8%;
-        margin-top: -10%;
-        text-align: center;
-        color: $color-lean;
-    }
-    .contact4-boton{
-        width: 50%;
-        @include crearBordes();
-        padding: 1.5%;
-        font-weight: 600;
-        color: $color-blanco;
-        cursor: pointer;
-    }
 }
-
 
 
 /**/
