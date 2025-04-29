@@ -103,16 +103,20 @@ h1 {
 /*
             HEADER
 */
-.nav1 .navbar-brand {
-  padding-left: 10%;
-}
 .nav1 .navbar-logo {
-  width: 350px;
-  margin-left: -100%;
+  max-height: 7vh;
 }
 .nav1 .navbar-text {
-  padding-left: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
   font-family: "monserrat";
+  font-size: 20px;
+}
+.nav1 .navbar-text a {
+  white-space: nowrap;
+  text-align: center;
 }
 .nav1 li {
   padding-right: 1%;
@@ -126,23 +130,8 @@ h1 {
   border-radius: 100px;
 }
 
-.nav2 .navbar2-brand {
-  padding-left: 10%;
-}
-.nav2 .navbar2-logo {
-  width: 350px;
-  margin-left: -100%;
-}
-.nav2 li {
-  padding-right: 1%;
-  padding-left: 1%;
-  font-size: 20px;
-}
-.nav2 li:hover {
-  transition: all 0.5s;
-  font-size: 21px;
-  border: 6px groove #cccccc;
-  border-radius: 100px;
+.nav2 {
+  font-family: "monserrat";
 }
 
 /*
@@ -152,26 +141,13 @@ h1 {
   font-family: "monserrat";
 }
 
-.flex-footer-text {
-  text-align: center;
-  height: 40px;
-  width: 2000px;
-  color: white;
-}
-
-.flex-footer-social {
-  display: flex;
-  align-items: center;
-  width: 2000px;
-}
-
-.flex-footer-social-item {
-  margin: auto;
-  padding: 1%;
+.footer-contacto {
+  padding: 4px 10px 15px;
 }
 
 .logo-footer {
-  width: 450px;
+  width: 100%;
+  max-width: 550px;
 }
 
 /*
