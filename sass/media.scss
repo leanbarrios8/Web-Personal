@@ -2,6 +2,10 @@
 
 /* */
 
+@media screen and (max-width: 1920px) {
+
+}
+
 @media screen and (max-width: 1400px) {
 
 }
@@ -228,7 +232,7 @@
 }
 
 
-/* INICIO */
+/* INICIO - SOBREMI - CONTACTO */
 
 @media screen and (max-width: 1400px) {
     .inicio{
@@ -298,5 +302,64 @@
     }
 }
 
+/* SOBREMI */
+
+@media screen and (max-width: 1920px) {
+    .SobreMi-titulo{
+        margin-top: -5%;
+        .SobreMi-titulo-text{
+            font-size: 2.2rem;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1400px) {
+    .SobreMi-titulo{
+        margin-top: -5%;
+        .SobreMi-titulo-text{
+            font-size: 2.2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .SobreMi-titulo{
+        margin-top: -5%;
+        .SobreMi-titulo-text{
+            font-size: 2.2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .SobreMi-titulo{
+        margin-top: -7%;
+        .SobreMi-titulo-text{
+            font-size: 2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .SobreMi-titulo{
+        margin-top: -12%;
+        .SobreMi-titulo-text{
+            font-size: 1.3rem;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .SobreMi-titulo{
+        margin-top: -21%;
+        .SobreMi-titulo-text{
+            font-size: 1.1rem;
+        }
+    }
+}
+
 /* PROYECTOS */
+
+/* CONTACTO */
 

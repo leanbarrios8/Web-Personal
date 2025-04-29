@@ -491,15 +491,11 @@ h1 {
         SOBREMI
 */
 
-.SobreMi{
-    padding: 4.5% 0% 4.5% 0%;
-}
-
 /**/
 
-.SobreMi{
-    padding-top: 3%;
-    .SobreMi-text{
+.SobreMi-titulo{
+    padding: 4.5% 0% 4.5% 0%;
+    .SobreMi-titulo-text{
         color: $color-blanco;
         font-family: 'playfairBI';
         font-size: 2.5rem;
