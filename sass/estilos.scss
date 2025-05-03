@@ -188,51 +188,30 @@ h1 {
         MAIN INDEX - PROYECTOS - ANIMACIONES
 */
 
-.blex-background{
-    display: none;
-    height: 150vh;
-    .blex-b{
-        margin-top: 10%;
-        animation-name: blexcarga;
-        animation-timing-function: linear;
-        animation-duration: 2s;
-        animation-delay: 0s;
-    }
-    @keyframes blexcarga {
-        0%{
-            transform: rotatez(0deg);
-        }
-
-        99%{
-            transform: rotatez(360deg);
-        }
-        100%{
-            
-        }
-    }
-}
-
 .inicio{
-    padding-top: 9%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    width: 100%;
+    padding-top: 6%;
     animation-name: moverizquierda;
     animation-timing-function: linear;
     animation-duration: 3s;
     animation-delay: 0s;
 }
 @keyframes moverizquierda {
-    0%{
-        transform: translate(+500px);
+    0% {
+        transform: translateX(30vw);
     }
-    60%{
-        transform: translate(-160px);
+    60% {
+        transform: translateX(-10vw);
     }
-    100%{
-        transform: translate(0px);
+    100% {
+        transform: translateX(0);
     }
 }
 .inicio-text{
     font-family: 'poppinsB';
-    height: 50vh;
+    height: 40vh;
     animation-name: extraindex;
     animation-duration: 2.5s;
     animation-delay: 0s;
@@ -246,7 +225,7 @@ h1 {
         }
     }
     .inicio1{
-        font-size: 6vw;
+        font-size: clamp(40px, 6vw, 100px);
         font-family: 'motterdam';
     }
     .inicio2{

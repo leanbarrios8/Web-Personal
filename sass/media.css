@@ -163,6 +163,18 @@
   }
 }
 /* INICIO - SOBREMI - CONTACTO */
+@media screen and (max-width: 3441px) {
+  .inicio {
+    max-height: 40vh;
+  }
+  .inicio .inicio1 {
+    padding-top: -1%;
+  }
+  .inicio .inicio2 {
+    padding-top: 1%;
+    font-size: 16px;
+  }
+}
 @media screen and (max-width: 1400px) {
   .inicio {
     height: 30vh;
@@ -178,7 +190,8 @@
 }
 @media screen and (max-width: 1200px) {
   .inicio {
-    height: 25vh;
+    padding-top: 8%;
+    height: 32vh;
   }
   .inicio .inicio1 {
     padding-top: 1%;
@@ -189,8 +202,8 @@
 }
 @media screen and (max-width: 990px) {
   .inicio {
-    height: 20vh;
-    margin-top: -10%;
+    height: 18vh;
+    margin-top: -6%;
   }
   .inicio .inicio1 {
     margin-top: 1%;
