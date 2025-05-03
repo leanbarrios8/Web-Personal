@@ -362,6 +362,15 @@ h1 {
   margin-top: 5%;
   color: #e0e0e0;
 }
+.proyecto1 .proyecto1-text .proyecto1-text-titulo {
+  font-size: clamp(22px, 3vw, 56px);
+  font-weight: bold;
+}
+.proyecto1 .proyecto1-text .proyecto1-text-descripcion {
+  font-size: clamp(14px, 1.5vw, 20px);
+  font-weight: 600;
+  line-height: 1.5;
+}
 
 /**/
 .proyecto2 {
@@ -373,6 +382,15 @@ h1 {
 .proyecto2 .proyecto2-text {
   margin-top: 5%;
   color: #e0e0e0;
+}
+.proyecto2 .proyecto2-text .proyecto2-text-titulo {
+  font-size: clamp(22px, 3vw, 56px);
+  font-weight: bold;
+}
+.proyecto2 .proyecto2-text .proyecto2-text-descripcion {
+  font-size: clamp(14px, 1.5vw, 20px);
+  font-weight: 600;
+  line-height: 1.5;
 }
 
 /**/
@@ -386,6 +404,15 @@ h1 {
   margin-top: 5%;
   color: #e0e0e0;
 }
+.proyecto3 .proyecto3-text .proyecto3-text-titulo {
+  font-size: clamp(22px, 3vw, 56px);
+  font-weight: bold;
+}
+.proyecto3 .proyecto3-text .proyecto3-text-descripcion {
+  font-size: clamp(14px, 1.5vw, 20px);
+  font-weight: 600;
+  line-height: 1.5;
+}
 
 /**/
 .proyecto4 {
@@ -397,6 +424,15 @@ h1 {
 .proyecto4 .proyecto4-text {
   margin-top: 5%;
   color: #e0e0e0;
+}
+.proyecto4 .proyecto4-text .proyecto4-text-titulo {
+  font-size: clamp(22px, 3vw, 56px);
+  font-weight: bold;
+}
+.proyecto4 .proyecto4-text .proyecto4-text-descripcion {
+  font-size: clamp(14px, 1.5vw, 20px);
+  font-weight: 600;
+  line-height: 1.5;
 }
 
 /**/
@@ -410,6 +446,15 @@ h1 {
   margin-top: 5%;
   color: #e0e0e0;
 }
+.proyecto5 .proyecto5-text .proyecto5-text-titulo {
+  font-size: clamp(22px, 3vw, 56px);
+  font-weight: bold;
+}
+.proyecto5 .proyecto5-text .proyecto5-text-descripcion {
+  font-size: clamp(14px, 1.5vw, 20px);
+  font-weight: 600;
+  line-height: 1.5;
+}
 
 /**/
 .proyecto6 {
@@ -422,6 +467,15 @@ h1 {
 .proyecto6 .proyecto6-text {
   margin-top: 5%;
   color: #e0e0e0;
+}
+.proyecto6 .proyecto6-text .proyecto6-text-titulo {
+  font-size: clamp(22px, 3vw, 56px);
+  font-weight: bold;
+}
+.proyecto6 .proyecto6-text .proyecto6-text-descripcion {
+  font-size: clamp(14px, 1.5vw, 20px);
+  font-weight: 600;
+  line-height: 1.5;
 }
 
 /*
