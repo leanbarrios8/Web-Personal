@@ -461,7 +461,7 @@ h1 {
         margin-top: 0%;
     }
     .proyecto4-text{
-        margin-top: 5%;
+        padding-top: 4.5%;
         color: $color-gris;
         .proyecto4-text-titulo{
             font-size: clamp(22px, 3vw, 56px);
@@ -503,7 +503,8 @@ h1 {
     font-family: 'poppins';
     .proyecto6-img img{
         margin-top: 0%;
-        margin-right: 8rem;
+        margin-right: 14vh;
+        max-height: 26.5vh;
     }
     .proyecto6-text{
         margin-top: 5%;
