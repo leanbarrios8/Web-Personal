@@ -1018,6 +1018,81 @@
 /* CONTACTO */
 
 @media screen and (max-width: 3441px) {
+    .inicio-contacto{
+        height: 30vh;
+        .inicio1-contacto{
+            display: block;
+            margin-top: -4%;
+        }
+    }
+}
+
+@media screen and (max-width: 1921px) {
+    .inicio-contacto{
+        height: 30vh;
+        .inicio1-contacto{
+            display: block;
+            margin-top: -1%;
+        }
+    }
+}
+
+@media screen and (max-width: 1401px) {
+    .inicio-contacto{
+        height: 30vh;
+        .inicio1-contacto{
+            display: block;
+            margin-top: -1%;
+        }
+    }
+}
+
+@media screen and (max-width: 1201px) {
+    .inicio-contacto{
+        height: 30vh;
+        .inicio1-contacto{
+            display: block;
+            margin-top: 1%;
+        }
+    }
+}
+
+
+@media screen and (max-width: 993px) {
+    .inicio-contacto{
+        height: 30vh;
+        .inicio1-contacto{
+            display: block;
+            margin-top: 3%;
+        }
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .inicio-contacto{
+        height: 17vh;
+        .inicio1-contacto{
+            display: block;
+            margin-top: -3%;
+        }
+    }
+}
+
+@media screen and (max-width: 571px) {
+    .inicio-contacto{
+        height: 15vh;
+        .inicio1-contacto{
+            display: block;
+            margin-top: -3%;
+        }
+    }
+}
+
+/* FORMULARIO CONTACTO */
+
+
+
+@media screen and (max-width: 3441px) {
     .contacto {
         padding-top: 8vh;
         padding-left: 18vh;
