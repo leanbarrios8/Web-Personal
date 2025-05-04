@@ -146,8 +146,9 @@ h1 {
 }
 
 .logo-footer {
+  margin-top: 2vh;
   width: 100%;
-  max-width: 550px;
+  max-width: 8vh;
 }
 
 /*
@@ -458,6 +459,7 @@ h1 {
 
 /**/
 .proyecto6 {
+  margin-bottom: -1.5vh;
   font-family: "poppins";
 }
 .proyecto6 .proyecto6-img img {
