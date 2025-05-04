@@ -240,7 +240,7 @@
 /* SOBREMI */
 @media screen and (max-width: 1920px) {
   .SobreMi-titulo {
-    margin-top: -5%;
+    margin-top: -2%;
   }
   .SobreMi-titulo .SobreMi-titulo-text {
     font-size: 2.2rem;
@@ -248,7 +248,7 @@
 }
 @media screen and (max-width: 1400px) {
   .SobreMi-titulo {
-    margin-top: -5%;
+    margin-top: -2%;
   }
   .SobreMi-titulo .SobreMi-titulo-text {
     font-size: 2.2rem;
@@ -256,7 +256,7 @@
 }
 @media screen and (max-width: 1200px) {
   .SobreMi-titulo {
-    margin-top: -5%;
+    margin-top: -2%;
   }
   .SobreMi-titulo .SobreMi-titulo-text {
     font-size: 2.2rem;
@@ -264,7 +264,7 @@
 }
 @media screen and (max-width: 992px) {
   .SobreMi-titulo {
-    margin-top: -7%;
+    margin-top: -4%;
   }
   .SobreMi-titulo .SobreMi-titulo-text {
     font-size: 2rem;
@@ -286,7 +286,139 @@
     font-size: 1.1rem;
   }
 }
+/* SOBREMI DESCRIPCION */
+@media screen and (max-width: 3441px) {
+  .SobreMi1 .SobreMi1-text {
+    font-size: clamp(22px, 3vw, 56px);
+  }
+  .SobreMi1 .SobreMi1-text-resumen {
+    font-family: "inter";
+    font-size: clamp(20px, 0.1vw, 40px);
+  }
+  .SobreMi1 .SobreMi1-img {
+    margin-top: 10%;
+    padding-right: 5%;
+  }
+}
+@media screen and (max-width: 1921px) {
+  .SobreMi1 .SobreMi1-text {
+    font-size: clamp(22px, 3vw, 56px);
+  }
+  .SobreMi1 .SobreMi1-text-resumen {
+    font-family: "inter";
+    font-size: clamp(20px, 0.1vw, 40px);
+  }
+  .SobreMi1 .SobreMi1-img {
+    margin-top: 10%;
+    padding-right: 5%;
+  }
+}
+@media screen and (max-width: 1441px) {
+  .SobreMi1 .SobreMi1-text {
+    padding-top: 3vh;
+    font-size: clamp(22px, 3vw, 56px);
+  }
+  .SobreMi1 .SobreMi1-text-resumen {
+    font-family: "inter";
+    font-size: clamp(20px, 0.1vw, 40px);
+  }
+  .SobreMi1 .SobreMi1-img {
+    margin-top: 3%;
+    padding-right: 5%;
+  }
+}
+@media screen and (max-width: 1202px) {
+  .SobreMi1 .SobreMi1-text {
+    padding-top: 3vh;
+    font-size: clamp(22px, 3vw, 56px);
+  }
+  .SobreMi1 .SobreMi1-text-resumen {
+    font-family: "inter";
+    font-size: clamp(20px, 0.1vw, 40px);
+  }
+  .SobreMi1 .SobreMi1-img {
+    margin-top: 10%;
+    padding-right: 5%;
+  }
+}
+@media screen and (max-width: 993px) {
+  .SobreMi1 .SobreMi1-text {
+    padding-top: 5vh;
+    font-size: clamp(22px, 3vw, 56px);
+  }
+  .SobreMi1 .SobreMi1-text-resumen {
+    font-family: "inter";
+    font-size: clamp(18px, 0.1vw, 36px);
+  }
+  .SobreMi1 .SobreMi1-img {
+    margin-top: 18%;
+    padding-right: 5%;
+  }
+}
+@media screen and (max-width: 769px) {
+  .SobreMi1 .SobreMi1-text {
+    padding-top: 3vh;
+    text-align: center;
+    font-size: clamp(22px, 3vw, 56px);
+  }
+  .SobreMi1 .SobreMi1-text-resumen {
+    text-align: center;
+    font-size: clamp(14px, 1.6vw, 18px);
+  }
+  .SobreMi1 .SobreMi1-img {
+    margin-top: 18%;
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 577px) {
+  .SobreMi1-img2 {
+    display: flex;
+  }
+  .SobreMi1 .SobreMi1-text {
+    padding-top: 5vh;
+    text-align: center;
+    font-size: clamp(22px, 3vw, 56px);
+  }
+  .SobreMi1 .SobreMi1-text-resumen {
+    text-align: center;
+    font-size: clamp(14px, 1.6vw, 18px);
+  }
+  .SobreMi1 .SobreMi1-img {
+    margin-top: 5%;
+    padding-right: 5%;
+  }
+}
 /* PROYECTOS */
+@media screen and (max-width: 1919px) {
+  .linea-programador {
+    display: none;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .linea-programador {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .linea-programador {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .linea-programador {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .linea-programador {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .linea-programador {
+    display: none;
+  }
+}
 /* PROYECTO1 */
 @media screen and (max-width: 3441px) {
   .proyecto1 .proyecto1-img img {
@@ -296,7 +428,7 @@
     margin-top: 5%;
   }
 }
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1921px) {
   .proyecto1 .proyecto1-img img {
     margin-top: 0%;
   }
@@ -629,4 +761,159 @@
     margin-top: 5%;
   }
 }
-/* CONTACTO *//*# sourceMappingURL=media.css.map */
+/* CONTACTO */
+@media screen and (max-width: 3441px) {
+  .contacto {
+    padding-top: 8vh;
+    padding-left: 18vh;
+    margin-bottom: 15vh;
+  }
+  .contacto .contacto-form {
+    padding-right: 18vh;
+  }
+  .contacto .contacto-text {
+    margin-top: 1vh;
+  }
+  .contacto .contacto-text .contacto-texto-limitado {
+    max-width: 60%;
+  }
+  .contacto .contacto-text .contacto-texto-limitado .contacto-titulo {
+    font-size: clamp(22px, 3vw, 56px);
+  }
+  .contacto .contacto-text .contacto-texto-limitado .contacto-sub-texto {
+    font-size: clamp(14px, 1.5vw, 20px);
+  }
+}
+@media screen and (max-width: 1921px) {
+  .contacto {
+    padding-top: 8vh;
+    padding-left: 18vh;
+    margin-bottom: 15vh;
+  }
+  .contacto .contacto-form {
+    padding-right: 18vh;
+  }
+  .contacto .contacto-text {
+    margin-top: 1vh;
+  }
+  .contacto .contacto-text .contacto-texto-limitado {
+    max-width: 60%;
+  }
+  .contacto .contacto-text .contacto-texto-limitado .contacto-titulo {
+    font-size: clamp(22px, 3vw, 56px);
+  }
+  .contacto .contacto-text .contacto-texto-limitado .contacto-sub-texto {
+    font-size: clamp(14px, 1.5vw, 20px);
+  }
+}
+@media screen and (max-width: 1401px) {
+  .contacto {
+    padding-top: 6vh;
+    padding-left: 18vh;
+    margin-bottom: 15vh;
+  }
+  .contacto .contacto-form {
+    padding-right: 18vh;
+  }
+  .contacto .contacto-text {
+    margin-top: 1vh;
+  }
+  .contacto .contacto-text .contacto-texto-limitado {
+    max-width: 60%;
+  }
+  .contacto .contacto-text .contacto-texto-limitado .contacto-titulo {
+    font-size: clamp(22px, 3vw, 56px);
+  }
+  .contacto .contacto-text .contacto-texto-limitado .contacto-sub-texto {
+    font-size: clamp(14px, 1.5vw, 20px);
+  }
+}
+@media screen and (max-width: 1202px) {
+  .contacto {
+    padding-top: 5vh;
+    padding-left: 18vh;
+    margin-bottom: 15vh;
+  }
+  .contacto .contacto-form {
+    padding-right: 18vh;
+  }
+  .contacto .contacto-text {
+    margin-top: 1vh;
+  }
+  .contacto .contacto-text .contacto-texto-limitado {
+    max-width: 80%;
+  }
+  .contacto .contacto-text .contacto-texto-limitado .contacto-titulo {
+    font-size: clamp(22px, 3vw, 56px);
+  }
+  .contacto .contacto-text .contacto-texto-limitado .contacto-sub-texto {
+    font-size: clamp(14px, 1.5vw, 20px);
+  }
+}
+@media screen and (max-width: 993px) {
+  .contacto {
+    padding-top: 4vh;
+    padding-left: 3vh;
+    margin-bottom: 15vh;
+  }
+  .contacto .contacto-form {
+    padding-right: 8vh;
+  }
+  .contacto .contacto-text {
+    margin-top: 1vh;
+  }
+  .contacto .contacto-text .contacto-texto-limitado {
+    max-width: 80%;
+  }
+  .contacto .contacto-text .contacto-texto-limitado .contacto-titulo {
+    font-size: clamp(22px, 2.5vw, 56px);
+  }
+  .contacto .contacto-text .contacto-texto-limitado .contacto-sub-texto {
+    font-size: clamp(14px, 1.5vw, 20px);
+  }
+}
+@media screen and (max-width: 769px) {
+  .contacto {
+    padding-top: 3vh;
+    padding-left: 2vh;
+    margin-bottom: 15vh;
+  }
+  .contacto .contacto-form {
+    padding-right: 5vh;
+  }
+  .contacto .contacto-text {
+    margin-top: 0vh;
+  }
+  .contacto .contacto-text .contacto-texto-limitado {
+    max-width: 80%;
+  }
+  .contacto .contacto-text .contacto-texto-limitado .contacto-titulo {
+    font-size: clamp(22px, 2vw, 56px);
+  }
+  .contacto .contacto-text .contacto-texto-limitado .contacto-sub-texto {
+    font-size: clamp(14px, 1.5vw, 20px);
+  }
+}
+@media screen and (max-width: 576px) {
+  .contacto {
+    padding-top: 0vh;
+    padding-left: 1vh;
+    margin-bottom: 12vh;
+  }
+  .contacto .contacto-form {
+    margin-top: 2vh;
+    padding-right: 2vh;
+  }
+  .contacto .contacto-text {
+    margin-top: 1vh;
+  }
+  .contacto .contacto-text .contacto-texto-limitado {
+    max-width: 100%;
+  }
+  .contacto .contacto-text .contacto-texto-limitado .contacto-titulo {
+    font-size: clamp(22px, 3vw, 56px);
+  }
+  .contacto .contacto-text .contacto-texto-limitado .contacto-sub-texto {
+    font-size: clamp(14px, 1.5vw, 20px);
+  }
+}/*# sourceMappingURL=media.css.map */

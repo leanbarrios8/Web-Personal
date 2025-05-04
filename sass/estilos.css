@@ -363,11 +363,11 @@ h1 {
   color: #e0e0e0;
 }
 .proyecto1 .proyecto1-text .proyecto1-text-titulo {
-  font-size: clamp(22px, 3vw, 56px);
+  font-size: clamp(21px, 3vw, 54px);
   font-weight: bold;
 }
 .proyecto1 .proyecto1-text .proyecto1-text-descripcion {
-  font-size: clamp(14px, 1.5vw, 20px);
+  font-size: clamp(12px, 1.7vw, 22px);
   font-weight: 600;
   line-height: 1.5;
 }
@@ -483,7 +483,7 @@ h1 {
 */
 /**/
 .SobreMi-titulo {
-  padding: 4.5% 0% 4.5% 0%;
+  padding: 1.5% 0% 4.5% 0%;
 }
 .SobreMi-titulo .SobreMi-titulo-text {
   color: #fff;
@@ -499,17 +499,13 @@ h1 {
 }
 .SobreMi1 .SobreMi1-text {
   font-family: "nunito";
-  font-size: 3rem;
+  font-size: clamp(22px, 3vw, 56px);
   margin-top: 0%;
   padding-top: 10vh;
 }
 .SobreMi1 .SobreMi1-text-resumen {
   font-family: "inter";
-}
-.SobreMi1 .SobreMi1-logo {
-  padding-top: 1%;
-  padding-left: 4%;
-  border-radius: 50%;
+  font-size: clamp(14px, 1.5vw, 20px);
 }
 .SobreMi1 .SobreMi1-img {
   margin-top: 5%;
@@ -535,9 +531,11 @@ h1 {
   max-width: 60%;
 }
 .contacto .contacto-text .contacto-texto-limitado .contacto-titulo {
+  font-size: clamp(22px, 3vw, 56px);
   font-family: "playfairBI";
 }
 .contacto .contacto-text .contacto-texto-limitado .contacto-sub-texto {
+  font-size: clamp(14px, 1.5vw, 20px);
   font-family: "poppins";
 }
 
