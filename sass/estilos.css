@@ -32,10 +32,6 @@
   font-family: "motterdam";
   src: url("../assets/fonts/Motterdam-MVanr.ttf");
 }
-@font-face {
-  font-family: "thecrunch";
-  src: url("../assets/fonts/TheCrunch-rvp78.ttf");
-}
 * {
   padding: 0;
   margin: 0;

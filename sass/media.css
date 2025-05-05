@@ -24,6 +24,7 @@
 }
 @media screen and (max-width: 993px) {
   .nav1 {
+    display: none;
     max-width: 990px;
   }
   .nav1 .navbar-logo {
@@ -32,6 +33,7 @@
 }
 @media screen and (max-width: 769px) {
   .nav1 {
+    display: none;
     max-width: 760px;
   }
   .nav1 .navbar-logo {
@@ -40,6 +42,7 @@
 }
 @media screen and (max-width: 570px) {
   .nav1 {
+    display: none;
     max-width: 570px;
   }
   .nav1 .navbar-logo {
@@ -48,6 +51,7 @@
 }
 @media screen and (max-width: 370px) {
   .nav1 {
+    display: none;
     max-width: 370px;
   }
   .nav1 .navbar-logo {
@@ -56,10 +60,10 @@
 }
 /* NAV2 */
 @media screen and (max-width: 993px) {
-  .nav1 {
+  .nav2 {
     max-width: 990px;
   }
-  .nav1 .navbar-logo {
+  .nav2 .navbar2-logo {
     max-width: 4vh;
   }
 }

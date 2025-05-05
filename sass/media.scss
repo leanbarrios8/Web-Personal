@@ -68,6 +68,7 @@
 
 @media screen and (max-width: 993px) {
     .nav1{
+        display: none;
         max-width: 990px;
         .navbar-logo{
             max-width: 4vh;
@@ -78,6 +79,7 @@
 
 @media screen and (max-width: 769px) {
     .nav1{
+        display: none;
         max-width: 760px;
         .navbar-logo{
             max-width: 4vh;
@@ -87,6 +89,7 @@
 
 @media screen and (max-width: 570px) {
     .nav1{
+        display: none;
         max-width: 570px;
         .navbar-logo{
             max-width: 4vh;
@@ -96,6 +99,7 @@
 
 @media screen and (max-width: 370px) {
     .nav1{
+        display: none;
         max-width: 370px;
         .navbar-logo{
             max-width: 4vh;
@@ -106,9 +110,9 @@
 /* NAV2 */
 
 @media screen and (max-width: 993px) {
-    .nav1{
+    .nav2{
         max-width: 990px;
-        .navbar-logo{
+        .navbar2-logo{
             max-width: 4vh;
         }
     }
