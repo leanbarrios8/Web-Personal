@@ -252,35 +252,59 @@
     display: none;
   }
 }
+@media screen and (max-width: 370px) {
+  .inicio {
+    height: 14vh;
+    margin-top: -12%;
+  }
+  .inicio .inicio1 {
+    margin-top: 5%;
+  }
+  .inicio .inicio2 {
+    display: none;
+  }
+}
 /* SOBREMI */
 @media screen and (max-width: 1920px) {
   .SobreMi-titulo {
+    padding-top: 2vh;
     margin-top: -2%;
   }
 }
 @media screen and (max-width: 1400px) {
   .SobreMi-titulo {
+    padding-top: 2vh;
     margin-top: -2%;
   }
 }
 @media screen and (max-width: 1200px) {
   .SobreMi-titulo {
+    padding-top: 2vh;
     margin-top: -2%;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 993px) {
   .SobreMi-titulo {
-    margin-top: -4%;
+    padding-top: -2vh;
+    margin-top: -12%;
   }
 }
 @media screen and (max-width: 768px) {
   .SobreMi-titulo {
-    margin-top: -12%;
+    padding-top: 2vh;
+    margin-top: -16%;
   }
 }
 @media screen and (max-width: 576px) {
   .SobreMi-titulo {
+    padding-top: 2vh;
     margin-top: -26%;
+  }
+}
+@media screen and (max-width: 376px) {
+  .SobreMi-titulo {
+    padding-top: 2vh;
+    margin-top: -38%;
   }
 }
 /* SOBREMI DESCRIPCION */
@@ -298,7 +322,7 @@
     font-family: "inter";
   }
   .SobreMi1 .SobreMi1-img {
-    margin-top: 10%;
+    margin-top: 7%;
     padding-right: 5%;
   }
 }
@@ -310,7 +334,7 @@
     font-family: "inter";
   }
   .SobreMi1 .SobreMi1-img {
-    margin-top: 3%;
+    margin-top: 0%;
     padding-right: 5%;
   }
 }
@@ -322,7 +346,7 @@
     font-family: "inter";
   }
   .SobreMi1 .SobreMi1-img {
-    margin-top: 10%;
+    margin-top: 3%;
     padding-right: 5%;
   }
 }
@@ -334,7 +358,7 @@
     font-family: "inter";
   }
   .SobreMi1 .SobreMi1-img {
-    margin-top: 18%;
+    margin-top: 7%;
     padding-right: 5%;
   }
 }
@@ -347,7 +371,7 @@
     text-align: center;
   }
   .SobreMi1 .SobreMi1-img {
-    margin-top: 18%;
+    margin-top: 13%;
     padding-right: 0;
   }
 }
@@ -402,6 +426,8 @@
 @media screen and (max-width: 3441px) {
   .proyecto1 .proyecto1-img img {
     margin-top: 0%;
+    width: 100%;
+    height: auto;
   }
   .proyecto1 .proyecto1-text {
     margin-top: 5%;
@@ -410,22 +436,28 @@
 @media screen and (max-width: 1921px) {
   .proyecto1 .proyecto1-img img {
     margin-top: 0%;
+    width: 100%;
+    height: auto;
   }
   .proyecto1 .proyecto1-text {
     margin-top: 5%;
   }
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1401px) {
   .proyecto1 .proyecto1-img img {
     margin-top: 0%;
+    width: 95%;
+    height: auto;
   }
   .proyecto1 .proyecto1-text {
     margin-top: 5%;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1201px) {
   .proyecto1 .proyecto1-img img {
     margin-top: 0%;
+    width: 95%;
+    height: auto;
   }
   .proyecto1 .proyecto1-text {
     margin-top: 5%;
@@ -434,6 +466,8 @@
 @media screen and (max-width: 992px) {
   .proyecto1 .proyecto1-img img {
     margin-top: 0%;
+    width: 95%;
+    height: auto;
   }
   .proyecto1 .proyecto1-text {
     margin-top: 5%;
@@ -442,6 +476,8 @@
 @media screen and (max-width: 768px) {
   .proyecto1 .proyecto1-img img {
     margin-top: 0%;
+    width: 95%;
+    height: auto;
   }
   .proyecto1 .proyecto1-text {
     margin-top: 2%;
@@ -449,7 +485,23 @@
 }
 @media screen and (max-width: 576px) {
   .proyecto1 .proyecto1-img img {
-    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
+  .proyecto1 .proyecto1-text {
+    margin-top: 5%;
+  }
+}
+@media screen and (max-width: 376px) {
+  .proyecto1 .proyecto1-img img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
   }
   .proyecto1 .proyecto1-text {
     margin-top: 5%;
@@ -459,6 +511,8 @@
 @media screen and (max-width: 3441px) {
   .proyecto2 .proyecto2-img img {
     margin-top: 0%;
+    width: 100%;
+    height: auto;
   }
   .proyecto2 .proyecto2-text {
     margin-top: 5%;
@@ -467,6 +521,8 @@
 @media screen and (max-width: 1920px) {
   .proyecto2 .proyecto2-img img {
     margin-top: 0%;
+    width: 100%;
+    height: auto;
   }
   .proyecto2 .proyecto2-text {
     margin-top: 5%;
@@ -475,6 +531,8 @@
 @media screen and (max-width: 1400px) {
   .proyecto2 .proyecto2-img img {
     margin-top: 0%;
+    width: 95%;
+    height: auto;
   }
   .proyecto2 .proyecto2-text {
     margin-top: 5%;
@@ -483,6 +541,8 @@
 @media screen and (max-width: 1200px) {
   .proyecto2 .proyecto2-img img {
     margin-top: 0%;
+    width: 95%;
+    height: auto;
   }
   .proyecto2 .proyecto2-text {
     margin-top: 5%;
@@ -491,6 +551,8 @@
 @media screen and (max-width: 992px) {
   .proyecto2 .proyecto2-img img {
     margin-top: 0%;
+    width: 95%;
+    height: auto;
   }
   .proyecto2 .proyecto2-text {
     margin-top: 5%;
@@ -499,6 +561,8 @@
 @media screen and (max-width: 768px) {
   .proyecto2 .proyecto2-img img {
     margin-top: 0%;
+    width: 95%;
+    height: auto;
   }
   .proyecto2 .proyecto2-text {
     margin-top: 2%;
@@ -506,16 +570,34 @@
 }
 @media screen and (max-width: 576px) {
   .proyecto2 .proyecto2-img img {
-    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 95%;
+    height: auto;
   }
   .proyecto2 .proyecto2-text {
-    margin-top: 5%;
+    margin-top: 0%;
+  }
+}
+@media screen and (max-width: 376px) {
+  .proyecto2 .proyecto2-img img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 95%;
+    height: auto;
+  }
+  .proyecto2 .proyecto2-text {
+    margin-top: 0%;
   }
 }
 /* PROYECTO3 */
 @media screen and (max-width: 3441px) {
   .proyecto3 .proyecto3-img img {
     margin-top: 0%;
+    width: 100%;
+    height: auto;
   }
   .proyecto3 .proyecto3-text {
     margin-top: 5%;
@@ -524,6 +606,8 @@
 @media screen and (max-width: 1920px) {
   .proyecto3 .proyecto3-img img {
     margin-top: 0%;
+    width: 100%;
+    height: auto;
   }
   .proyecto3 .proyecto3-text {
     margin-top: 5%;
@@ -532,6 +616,8 @@
 @media screen and (max-width: 1400px) {
   .proyecto3 .proyecto3-img img {
     margin-top: 0%;
+    width: 95%;
+    height: auto;
   }
   .proyecto3 .proyecto3-text {
     margin-top: 5%;
@@ -540,6 +626,8 @@
 @media screen and (max-width: 1200px) {
   .proyecto3 .proyecto3-img img {
     margin-top: 0%;
+    width: 95%;
+    height: auto;
   }
   .proyecto3 .proyecto3-text {
     margin-top: 5%;
@@ -548,6 +636,8 @@
 @media screen and (max-width: 992px) {
   .proyecto3 .proyecto3-img img {
     margin-top: 0%;
+    width: 95%;
+    height: auto;
   }
   .proyecto3 .proyecto3-text {
     margin-top: 5%;
@@ -556,6 +646,8 @@
 @media screen and (max-width: 768px) {
   .proyecto3 .proyecto3-img img {
     margin-top: 0%;
+    width: 95%;
+    height: auto;
   }
   .proyecto3 .proyecto3-text {
     margin-top: 2%;
@@ -563,7 +655,23 @@
 }
 @media screen and (max-width: 576px) {
   .proyecto3 .proyecto3-img img {
-    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 95%;
+    height: auto;
+  }
+  .proyecto3 .proyecto3-text {
+    margin-top: 5%;
+  }
+}
+@media screen and (max-width: 376px) {
+  .proyecto3 .proyecto3-img img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 95%;
+    height: auto;
   }
   .proyecto3 .proyecto3-text {
     margin-top: 5%;
@@ -573,6 +681,8 @@
 @media screen and (max-width: 3441px) {
   .proyecto4 .proyecto4-img img {
     margin-top: 0%;
+    width: 100%;
+    height: auto;
   }
   .proyecto4 .proyecto4-text {
     margin-top: 5%;
@@ -581,6 +691,8 @@
 @media screen and (max-width: 1920px) {
   .proyecto4 .proyecto4-img img {
     margin-top: 0%;
+    width: 100%;
+    height: auto;
   }
   .proyecto4 .proyecto4-text {
     margin-top: 5%;
@@ -589,6 +701,8 @@
 @media screen and (max-width: 1400px) {
   .proyecto4 .proyecto4-img img {
     margin-top: 0%;
+    width: 95%;
+    height: auto;
   }
   .proyecto4 .proyecto4-text {
     margin-top: 5%;
@@ -597,6 +711,8 @@
 @media screen and (max-width: 1200px) {
   .proyecto4 .proyecto4-img img {
     margin-top: 0%;
+    width: 95%;
+    height: auto;
   }
   .proyecto4 .proyecto4-text {
     margin-top: 5%;
@@ -605,6 +721,8 @@
 @media screen and (max-width: 992px) {
   .proyecto4 .proyecto4-img img {
     margin-top: 0%;
+    width: 95%;
+    height: auto;
   }
   .proyecto4 .proyecto4-text {
     margin-top: 5%;
@@ -613,6 +731,8 @@
 @media screen and (max-width: 768px) {
   .proyecto4 .proyecto4-img img {
     margin-top: 0%;
+    width: 95%;
+    height: auto;
   }
   .proyecto4 .proyecto4-text {
     margin-top: 2%;
@@ -620,16 +740,34 @@
 }
 @media screen and (max-width: 576px) {
   .proyecto4 .proyecto4-img img {
-    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 95%;
+    height: auto;
   }
   .proyecto4 .proyecto4-text {
-    padding-top: 0%;
+    margin-top: -3%;
+  }
+}
+@media screen and (max-width: 376px) {
+  .proyecto4 .proyecto4-img img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 95%;
+    height: auto;
+  }
+  .proyecto4 .proyecto4-text {
+    margin-top: -3%;
   }
 }
 /* PROYECTO5 */
 @media screen and (max-width: 3441px) {
   .proyecto5 .proyecto5-img img {
     margin-top: 0%;
+    width: 100%;
+    height: auto;
   }
   .proyecto5 .proyecto5-text {
     margin-top: 5%;
@@ -638,6 +776,8 @@
 @media screen and (max-width: 1920px) {
   .proyecto5 .proyecto5-img img {
     margin-top: 0%;
+    width: 100%;
+    height: auto;
   }
   .proyecto5 .proyecto5-text {
     margin-top: 5%;
@@ -646,6 +786,8 @@
 @media screen and (max-width: 1400px) {
   .proyecto5 .proyecto5-img img {
     margin-top: 0%;
+    width: 95%;
+    height: auto;
   }
   .proyecto5 .proyecto5-text {
     margin-top: 5%;
@@ -654,6 +796,8 @@
 @media screen and (max-width: 1200px) {
   .proyecto5 .proyecto5-img img {
     margin-top: 0%;
+    width: 95%;
+    height: auto;
   }
   .proyecto5 .proyecto5-text {
     margin-top: 5%;
@@ -662,6 +806,8 @@
 @media screen and (max-width: 992px) {
   .proyecto5 .proyecto5-img img {
     margin-top: 0%;
+    width: 95%;
+    height: auto;
   }
   .proyecto5 .proyecto5-text {
     margin-top: 5%;
@@ -669,7 +815,11 @@
 }
 @media screen and (max-width: 768px) {
   .proyecto5 .proyecto5-img img {
+    display: flex;
+    justify-content: center;
     margin-top: 0%;
+    width: 95%;
+    height: auto;
   }
   .proyecto5 .proyecto5-text {
     margin-top: 2%;
@@ -677,7 +827,23 @@
 }
 @media screen and (max-width: 576px) {
   .proyecto5 .proyecto5-img img {
-    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 95%;
+    height: auto;
+  }
+  .proyecto5 .proyecto5-text {
+    margin-top: 5%;
+  }
+}
+@media screen and (max-width: 376px) {
+  .proyecto5 .proyecto5-img img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 95%;
+    height: auto;
   }
   .proyecto5 .proyecto5-text {
     margin-top: 5%;
@@ -741,7 +907,7 @@
     max-height: 18.5vh;
   }
   .proyecto6 .proyecto6-text {
-    margin-top: 5%;
+    margin-top: 2%;
   }
 }
 @media screen and (max-width: 576px) {
@@ -751,7 +917,48 @@
     max-height: 20.5vh;
   }
   .proyecto6 .proyecto6-text {
-    margin-top: 5%;
+    margin-top: 2%;
+  }
+}
+/* ZOOM DE PROYECTOS */
+@media screen and (max-width: 3441px) {
+  .zoom:hover {
+    transform: scale(1.4);
+  }
+}
+@media screen and (max-width: 1921px) {
+  .zoom:hover {
+    transform: scale(1.4);
+  }
+}
+@media screen and (max-width: 1441px) {
+  .zoom:hover {
+    transform: scale(1.1);
+  }
+}
+@media screen and (max-width: 1202px) {
+  .zoom:hover {
+    transform: scale(1.1);
+  }
+}
+@media screen and (max-width: 993px) {
+  .zoom:hover {
+    transform: scale(1.1);
+  }
+}
+@media screen and (max-width: 769px) {
+  .zoom:hover {
+    transform: scale(1.1);
+  }
+}
+@media screen and (max-width: 576px) {
+  .zoom:hover {
+    transform: scale(1.1);
+  }
+}
+@media screen and (max-width: 376px) {
+  .zoom:hover {
+    transform: scale(1.1);
   }
 }
 /* CONTACTO */
@@ -816,6 +1023,17 @@
   .inicio-contacto .inicio1-contacto {
     display: block;
     margin-top: -3%;
+    padding-top: 10%;
+  }
+}
+@media screen and (max-width: 371px) {
+  .inicio-contacto {
+    height: 15vh;
+  }
+  .inicio-contacto .inicio1-contacto {
+    display: block;
+    margin-top: -3%;
+    padding-top: 15%;
   }
 }
 /* FORMULARIO CONTACTO */
