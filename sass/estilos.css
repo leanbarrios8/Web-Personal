@@ -1,37 +1,7 @@
 @charset "UTF-8";
+/* FUENTES */
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap");
 /* HTML */
-@font-face {
-  font-family: "poppins";
-  src: url("../assets/fonts/Poppins-Medium.ttf");
-}
-@font-face {
-  font-family: "poppinsB";
-  src: url("../assets/fonts/Poppins-Bold.ttf");
-}
-@font-face {
-  font-family: "inter";
-  src: url("../assets/fonts/Inter-Medium.ttf");
-}
-@font-face {
-  font-family: "nunito";
-  src: url("../assets/fonts/Nunito-Regular.ttf");
-}
-@font-face {
-  font-family: "nunitoI";
-  src: url("../assets/fonts/Nunito-BoldItalic.ttf");
-}
-@font-face {
-  font-family: "monserrat";
-  src: url("../assets/fonts/Montserrat-Medium.ttf");
-}
-@font-face {
-  font-family: "playfairBI";
-  src: url("../assets/fonts/PlayfairDisplay-BoldItalic.ttf");
-}
-@font-face {
-  font-family: "motterdam";
-  src: url("../assets/fonts/Motterdam-MVanr.ttf");
-}
 * {
   padding: 0;
   margin: 0;
@@ -107,7 +77,7 @@ h1 {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  font-family: "monserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
 }
 .nav1 .navbar-text a {
@@ -127,14 +97,14 @@ h1 {
 }
 
 .nav2 {
-  font-family: "monserrat";
+  font-family: "Montserrat", sans-serif;
 }
 
 /*
             FOOTER
 */
 .footer {
-  font-family: "monserrat";
+  font-family: "Montserrat", sans-serif;
 }
 
 .footer-contacto {
@@ -173,7 +143,9 @@ h1 {
   }
 }
 .inicio-text {
-  font-family: "poppinsB";
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
   height: 40vh;
   animation-name: extraindex;
   animation-duration: 2.5s;
@@ -189,13 +161,14 @@ h1 {
   }
 }
 .inicio1 {
-  font-size: clamp(40px, 6vw, 100px);
-  font-family: "motterdam";
+  font-size: clamp(44px, 6.8vw, 110px);
+  font-family: "Great Vibes", cursive;
 }
 
 .inicio2 {
-  font-size: 0.8vw;
-  font-family: "nunito";
+  font-family: "Nunito", sans-serif;
+  font-size: clamp(11px, 1.6vw, 20px);
+  font-weight: 380;
   padding-bottom: 5vw;
   margin-top: -1.2vw;
   text-align: center;
@@ -350,7 +323,9 @@ h1 {
         PROYECTOS
 */
 .proyecto1 {
-  font-family: "poppins";
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 .proyecto1 .proyecto1-img img {
   margin-top: 0%;
@@ -360,18 +335,21 @@ h1 {
   color: #e0e0e0;
 }
 .proyecto1 .proyecto1-text .proyecto1-text-titulo {
-  font-size: clamp(21px, 3vw, 54px);
+  font-size: clamp(20px, 2.8vw, 52px);
   font-weight: bold;
 }
 .proyecto1 .proyecto1-text .proyecto1-text-descripcion {
-  font-size: clamp(12px, 1.7vw, 22px);
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(11px, 1.6vw, 20px);
   font-weight: 600;
   line-height: 1.5;
 }
 
 /**/
 .proyecto2 {
-  font-family: "poppins";
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 .proyecto2 .proyecto2-img img {
   margin-top: 0%;
@@ -381,18 +359,21 @@ h1 {
   color: #e0e0e0;
 }
 .proyecto2 .proyecto2-text .proyecto2-text-titulo {
-  font-size: clamp(22px, 3vw, 56px);
+  font-size: clamp(20px, 2.8vw, 52px);
   font-weight: bold;
 }
 .proyecto2 .proyecto2-text .proyecto2-text-descripcion {
-  font-size: clamp(14px, 1.5vw, 20px);
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(11px, 1.6vw, 20px);
   font-weight: 600;
   line-height: 1.5;
 }
 
 /**/
 .proyecto3 {
-  font-family: "poppins";
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 .proyecto3 .proyecto3-img img {
   margin-top: 0%;
@@ -402,18 +383,21 @@ h1 {
   color: #e0e0e0;
 }
 .proyecto3 .proyecto3-text .proyecto3-text-titulo {
-  font-size: clamp(22px, 3vw, 56px);
+  font-size: clamp(20px, 2.8vw, 52px);
   font-weight: bold;
 }
 .proyecto3 .proyecto3-text .proyecto3-text-descripcion {
-  font-size: clamp(14px, 1.5vw, 20px);
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(11px, 1.6vw, 20px);
   font-weight: 600;
   line-height: 1.5;
 }
 
 /**/
 .proyecto4 {
-  font-family: "poppins";
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 .proyecto4 .proyecto4-img img {
   margin-top: 0%;
@@ -423,18 +407,21 @@ h1 {
   color: #e0e0e0;
 }
 .proyecto4 .proyecto4-text .proyecto4-text-titulo {
-  font-size: clamp(22px, 3vw, 56px);
+  font-size: clamp(20px, 2.8vw, 52px);
   font-weight: bold;
 }
 .proyecto4 .proyecto4-text .proyecto4-text-descripcion {
-  font-size: clamp(14px, 1.5vw, 20px);
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(11px, 1.6vw, 20px);
   font-weight: 600;
   line-height: 1.5;
 }
 
 /**/
 .proyecto5 {
-  font-family: "poppins";
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 .proyecto5 .proyecto5-img img {
   margin-top: 0%;
@@ -444,11 +431,12 @@ h1 {
   color: #e0e0e0;
 }
 .proyecto5 .proyecto5-text .proyecto5-text-titulo {
-  font-size: clamp(22px, 3vw, 56px);
+  font-size: clamp(20px, 2.8vw, 52px);
   font-weight: bold;
 }
 .proyecto5 .proyecto5-text .proyecto5-text-descripcion {
-  font-size: clamp(14px, 1.5vw, 20px);
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(11px, 1.6vw, 20px);
   font-weight: 600;
   line-height: 1.5;
 }
@@ -456,7 +444,9 @@ h1 {
 /**/
 .proyecto6 {
   margin-bottom: -1.5vh;
-  font-family: "poppins";
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 .proyecto6 .proyecto6-img img {
   margin-top: 0%;
@@ -468,11 +458,12 @@ h1 {
   color: #e0e0e0;
 }
 .proyecto6 .proyecto6-text .proyecto6-text-titulo {
-  font-size: clamp(22px, 3vw, 56px);
+  font-size: clamp(20px, 2.8vw, 52px);
   font-weight: bold;
 }
 .proyecto6 .proyecto6-text .proyecto6-text-descripcion {
-  font-size: clamp(14px, 1.5vw, 20px);
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(11px, 1.6vw, 20px);
   font-weight: 600;
   line-height: 1.5;
 }
@@ -482,12 +473,13 @@ h1 {
 */
 /**/
 .SobreMi-titulo {
+  margin-top: -3%;
   padding: 1.5% 0% 4.5% 0%;
 }
 .SobreMi-titulo .SobreMi-titulo-text {
   color: #fff;
-  font-family: "playfairBI";
-  font-size: 2.5rem;
+  font-family: "Pinyon Script", cursive;
+  font-size: clamp(20px, 2.8vw, 52px);
   padding-top: 4%;
 }
 
@@ -497,14 +489,16 @@ h1 {
   padding-bottom: 6%;
 }
 .SobreMi1 .SobreMi1-text {
-  font-family: "nunito";
-  font-size: clamp(22px, 3vw, 56px);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: clamp(18px, 2vw, 46px);
   margin-top: 0%;
   padding-top: 10vh;
 }
 .SobreMi1 .SobreMi1-text-resumen {
-  font-family: "inter";
-  font-size: clamp(14px, 1.5vw, 20px);
+  font-family: "Inter", sans-serif;
+  font-size: clamp(13px, 1.4vw, 18px);
 }
 .SobreMi1 .SobreMi1-img {
   margin-top: 5%;
@@ -518,7 +512,9 @@ h1 {
   padding-top: 8vh;
   padding-left: 18vh;
   margin-bottom: 15vh;
-  font-family: "poppins";
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
 }
 .contacto .contacto-form {
   padding-right: 18vh;
@@ -531,11 +527,13 @@ h1 {
 }
 .contacto .contacto-text .contacto-texto-limitado .contacto-titulo {
   font-size: clamp(22px, 3vw, 56px);
-  font-family: "playfairBI";
+  font-family: "Playfair Display", serif;
 }
 .contacto .contacto-text .contacto-texto-limitado .contacto-sub-texto {
   font-size: clamp(14px, 1.5vw, 20px);
-  font-family: "poppins";
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
 }
 
 /**//*# sourceMappingURL=estilos.css.map */

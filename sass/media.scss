@@ -260,7 +260,6 @@
         }
         .inicio2{
             padding-top: 1%;
-            font-size: 16px;
         }
     }
 
@@ -275,7 +274,6 @@
         }
         .inicio2{
             padding-top: 1%;
-            font-size: 16px;
         }
     }
 
@@ -340,9 +338,6 @@
 @media screen and (max-width: 1920px) {
     .SobreMi-titulo{
         margin-top: -2%;
-        .SobreMi-titulo-text{
-            font-size: 2.2rem;
-        }
     }
 }
 
@@ -350,45 +345,30 @@
 @media screen and (max-width: 1400px) {
     .SobreMi-titulo{
         margin-top: -2%;
-        .SobreMi-titulo-text{
-            font-size: 2.2rem;
-        }
     }
 }
 
 @media screen and (max-width: 1200px) {
     .SobreMi-titulo{
         margin-top: -2%;
-        .SobreMi-titulo-text{
-            font-size: 2.2rem;
-        }
     }
 }
 
 @media screen and (max-width: 992px) {
     .SobreMi-titulo{
         margin-top: -4%;
-        .SobreMi-titulo-text{
-            font-size: 2rem;
-        }
     }
 }
 
 @media screen and (max-width: 768px) {
     .SobreMi-titulo{
         margin-top: -12%;
-        .SobreMi-titulo-text{
-            font-size: 1.3rem;
-        }
     }
 }
 
 @media screen and (max-width: 576px) {
     .SobreMi-titulo{
-        margin-top: -21%;
-        .SobreMi-titulo-text{
-            font-size: 1.1rem;
-        }
+        margin-top: -26%;
     }
 }
 
@@ -396,12 +376,8 @@
 
 @media screen and (max-width: 3441px) {
     .SobreMi1{
-        .SobreMi1-text{
-            font-size: clamp(22px, 3vw, 56px);
-        }
         .SobreMi1-text-resumen{
             font-family: 'inter';
-            font-size: clamp(20px, 0.1vw, 40px);
         }
         .SobreMi1-img{
             margin-top: 10%;
@@ -412,12 +388,8 @@
 
 @media screen and (max-width: 1921px) {
     .SobreMi1{
-        .SobreMi1-text{
-            font-size: clamp(22px, 3vw, 56px);
-        }
         .SobreMi1-text-resumen{
             font-family: 'inter';
-            font-size: clamp(20px, 0.1vw, 40px);
         }
         .SobreMi1-img{
             margin-top: 10%;
@@ -430,11 +402,9 @@
     .SobreMi1{
         .SobreMi1-text{
             padding-top: 3vh;
-            font-size: clamp(22px, 3vw, 56px);
         }
         .SobreMi1-text-resumen{
             font-family: 'inter';
-            font-size: clamp(20px, 0.1vw, 40px);
         }
         .SobreMi1-img{
             margin-top: 3%;
@@ -447,11 +417,9 @@
     .SobreMi1{
         .SobreMi1-text{
             padding-top: 3vh;
-            font-size: clamp(22px, 3vw, 56px);
         }
         .SobreMi1-text-resumen{
             font-family: 'inter';
-            font-size: clamp(20px, 0.1vw, 40px);
         }
         .SobreMi1-img{
             margin-top: 10%;
@@ -464,11 +432,9 @@
     .SobreMi1{
         .SobreMi1-text{
             padding-top: 5vh;
-            font-size: clamp(22px, 3vw, 56px);
         }
         .SobreMi1-text-resumen{
             font-family: 'inter';
-            font-size: clamp(18px, 0.1vw, 36px);
         }
         .SobreMi1-img{
             margin-top: 18%;
@@ -482,11 +448,9 @@
         .SobreMi1-text {
             padding-top: 3vh;
             text-align: center;
-            font-size: clamp(22px, 3vw, 56px);
         }
         .SobreMi1-text-resumen {
             text-align: center;
-            font-size: clamp(14px, 1.6vw, 18px);
         }
         .SobreMi1-img {
             margin-top: 18%;
@@ -503,11 +467,9 @@
         .SobreMi1-text{
             padding-top: 5vh;
             text-align: center;
-            font-size: clamp(22px, 3vw, 56px);
         }
         .SobreMi1-text-resumen{
             text-align: center;
-            font-size: clamp(14px, 1.6vw, 18px);
         }
         .SobreMi1-img{
             margin-top: 5%;
