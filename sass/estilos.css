@@ -128,66 +128,69 @@ h1 {
         MAIN INDEX - PROYECTOS - ANIMACIONES
 */
 .inicio {
-  overflow-wrap: break-word;
-  word-break: break-word;
-  width: 100%;
+  height: 46vh;
   padding-top: 6%;
+  animation-name: extraindex;
+  animation-duration: 4s;
+  animation-delay: 0s;
+}
+@keyframes extraindex {
+  0% {
+    height: 160vh;
+  }
+  100% {
+    height: 46vh;
+  }
+}
+.inicio .inicio1 {
+  font-size: clamp(44px, 6.8vw, 110px);
+  font-family: "Great Vibes", cursive;
   animation-name: moverizquierda;
   animation-timing-function: linear;
   animation-duration: 3s;
   animation-delay: 0s;
 }
-
 @keyframes moverizquierda {
   0% {
-    transform: translateX(30vw);
+    transform: translate(500px);
   }
   60% {
-    transform: translateX(-10vw);
+    transform: translate(-160px);
   }
   100% {
-    transform: translateX(0);
+    transform: translate(0px);
   }
 }
-.inicio-text {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-  height: 46vh;
-  animation-name: extraindex;
-  animation-duration: 2.5s;
-  animation-delay: 0s;
+.inicio .inicio1 .inicio-img {
+  padding-top: 1%;
+  border-radius: 50%;
+}
+.inicio .inicio1 .yo-img {
+  border-radius: 50%;
 }
 
-@keyframes extraindex {
-  0% {
-    height: 100vh;
-  }
-  100% {
-    height: 50vh;
-  }
-}
-.inicio1 {
-  font-size: clamp(44px, 6.8vw, 110px);
-  font-family: "Great Vibes", cursive;
-}
-
-.inicio2 {
+.inicio .inicio2 {
   font-family: "Nunito", sans-serif;
   font-size: clamp(11px, 1.6vw, 20px);
   font-weight: 380;
   padding-bottom: 5vw;
   margin-top: -1.2vw;
   text-align: center;
+  animation-name: moverizquierda2;
+  animation-timing-function: linear;
+  animation-duration: 3s;
+  animation-delay: 0s;
 }
-
-.inicio-img {
-  padding-top: 1%;
-  border-radius: 50%;
-}
-
-.yo-img {
-  border-radius: 50%;
+@keyframes moverizquierda2 {
+  0% {
+    transform: translate(500px);
+  }
+  60% {
+    transform: translate(-160px);
+  }
+  100% {
+    transform: translate(0px);
+  }
 }
 
 .btn-flotante {
