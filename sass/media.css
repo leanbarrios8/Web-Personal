@@ -297,22 +297,22 @@
 }
 @media screen and (max-width: 993px) {
   .SobreMi-titulo .SobreMi-titulo-text {
-    margin: 7% 0 5% 0;
+    margin: 9% 0 6% 0;
   }
 }
 @media screen and (max-width: 769px) {
   .SobreMi-titulo .SobreMi-titulo-text {
-    margin: 7% 0 6% 0;
+    margin: 6% 0 8% 0;
   }
 }
 @media screen and (max-width: 576px) {
   .SobreMi-titulo .SobreMi-titulo-text {
-    margin: 7% 0 6% 0;
+    margin: 7% 0 7% 0;
   }
 }
 @media screen and (max-width: 376px) {
   .SobreMi-titulo .SobreMi-titulo-text {
-    margin: 4% 0 4% 0;
+    margin: 5% 0 5% 0;
   }
 }
 /* SOBREMI DESCRIPCION */
