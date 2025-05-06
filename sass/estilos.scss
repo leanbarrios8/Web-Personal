@@ -93,8 +93,9 @@ h1 {
 */
 
 .nav1 {
+    border-bottom: none !important;
     .navbar-logo{
-        max-height: 7vh;
+        max-width: 5.4vh;
     }
     .navbar-text {
         display: flex;
@@ -121,6 +122,7 @@ h1 {
 }
 
 .nav2 {
+    border-bottom: none !important;
     font-family: "Montserrat", sans-serif;
     .nav2-link {
         font-size: clamp(20px, 2.8vw, 29px); // aquí lo aplicas directamente
@@ -357,7 +359,7 @@ h1 {
 .proyecto1{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-style: italic;
+    font-style: regular;
     .proyecto1-img img{
         margin-top: 0%;
         width: 100%;
@@ -384,7 +386,7 @@ h1 {
 .proyecto2{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-style: italic;
+    font-style: regular;
     .proyecto2-img img{
         margin-top: 0%;
         width: 100%;
@@ -411,7 +413,7 @@ h1 {
 .proyecto3{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-style: italic;
+    font-style: regular;
     .proyecto3-img img{
         margin-top: 0%;
         width: 100%;
@@ -438,7 +440,7 @@ h1 {
 .proyecto4{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-style: italic;
+    font-style: regular;
     .proyecto4-img img{
         margin-top: 0%;
         width: 100%;
@@ -465,7 +467,7 @@ h1 {
 .proyecto5{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-style: italic;
+    font-style: regular;
     .proyecto5-img img{
         margin-top: 0%;
         width: 100%;
@@ -493,7 +495,7 @@ h1 {
     margin-bottom: -1.5vh;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-style: italic;
+    font-style: regular;
     .proyecto6-img img{
         margin-top: 0%;
         margin-right: 14vh;
@@ -525,13 +527,12 @@ h1 {
 /**/
 
 .SobreMi-titulo{
-    margin-top: -3%;
-    padding: 1.5% 0% 4.5% 0%;
-    .SobreMi-titulo-text{
+    .SobreMi-titulo-text {
+        margin: 5% 0 4% 0;
         color: $color-blanco;
         font-family: "Pinyon Script", cursive;
         font-size: clamp(20px, 2.8vw, 52px);
-        padding-top: 4%;
+        text-align: center;
     }
 }
 
