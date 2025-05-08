@@ -59,8 +59,8 @@ html {
   }
 }
 /* DECLARACION DE VARIABLES */
-h1 {
-  font-size: 4em;
+html {
+  font-size: 100%;
 }
 
 /* DECLARACION DE CONDICIONALES
@@ -87,13 +87,13 @@ h1 {
   text-align: center;
 }
 .nav1 li {
-  padding-right: 1%;
-  padding-left: 1%;
-  font-size: clamp(11px, 1.6vw, 20px);
+  padding-right: 0.625rem;
+  padding-left: 0.625rem;
+  font-size: clamp(0.6875rem, 1.6vw, 1.25rem);
 }
 .nav1 li:hover {
   transition: all 0.5s;
-  font-size: clamp(12px, 1.7vw, 22px);
+  font-size: clamp(0.75rem, 1.7vw, 1.375rem);
   border: 6px groove #cccccc;
   border-radius: 100px;
 }
@@ -103,7 +103,7 @@ h1 {
   font-family: "Montserrat", sans-serif;
 }
 .nav2 .nav2-link {
-  font-size: clamp(20px, 2.8vw, 29px);
+  font-size: clamp(1.25rem, 2.8vw, 1.8125rem);
   font-weight: 500;
 }
 
@@ -114,21 +114,17 @@ h1 {
   font-family: "Montserrat", sans-serif;
 }
 
-.footer-contacto {
-  padding: 4px 10px 15px;
-}
-
 .logo-footer {
-  margin-top: 2vh;
+  margin-top: 1.125rem;
   width: 100%;
-  max-width: 8vh;
+  max-width: 4.5rem;
 }
 
 /*
         MAIN INDEX - PROYECTOS - ANIMACIONES
 */
 .inicio {
-  height: 46vh;
+  height: 25.875rem;
   padding-top: 6%;
   animation-name: extraindex;
   animation-duration: 4s;
@@ -136,61 +132,31 @@ h1 {
 }
 @keyframes extraindex {
   0% {
-    height: 160vh;
+    height: 90rem;
   }
   100% {
-    height: 46vh;
+    height: 25.875rem;
   }
 }
 .inicio .inicio1 {
-  font-size: clamp(44px, 6.8vw, 110px);
+  font-size: clamp(2.75rem, 6.8vw, 6.875rem);
   font-family: "Great Vibes", cursive;
-  animation-name: moverizquierda;
-  animation-timing-function: linear;
-  animation-duration: 3s;
-  animation-delay: 0s;
 }
-@keyframes moverizquierda {
-  0% {
-    transform: translate(500px);
-  }
-  60% {
-    transform: translate(-160px);
-  }
-  100% {
-    transform: translate(0px);
-  }
+.inicio .inicio-img {
+  padding-top: 0.625rem;
+  border-radius: 100px;
 }
-.inicio .inicio1 .inicio-img {
-  padding-top: 1%;
-  border-radius: 50%;
-}
-.inicio .inicio1 .yo-img {
-  border-radius: 50%;
+.inicio .yo-img {
+  border-radius: 100px;
 }
 
 .inicio .inicio2 {
   font-family: "Nunito", sans-serif;
-  font-size: clamp(11px, 1.6vw, 20px);
+  font-size: clamp(0.6875rem, 1.6vw, 1.25rem);
   font-weight: 380;
-  padding-bottom: 5vw;
-  margin-top: -1.2vw;
+  padding-bottom: 3.75rem;
+  margin-top: -0.9rem;
   text-align: center;
-  animation-name: moverizquierda2;
-  animation-timing-function: linear;
-  animation-duration: 3s;
-  animation-delay: 0s;
-}
-@keyframes moverizquierda2 {
-  0% {
-    transform: translate(500px);
-  }
-  60% {
-    transform: translate(-160px);
-  }
-  100% {
-    transform: translate(0px);
-  }
 }
 
 .btn-flotante {
@@ -198,9 +164,9 @@ h1 {
   background-color: black;
   position: fixed;
   font-size: 41px;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   letter-spacing: 2px;
-  padding: 2px 20px;
+  padding: 0.125rem 1.25rem;
   bottom: 40px;
   right: 40px;
   transition: all 300ms ease 0ms;
@@ -270,7 +236,6 @@ h1 {
 .seccion-ajustada-proyectos {
   scroll-margin-top: 6rem;
   position: relative;
-  overflow: hidden;
 }
 
 .rectangulo-proyectos {
@@ -279,14 +244,20 @@ h1 {
   padding: 2rem;
   border-radius: 15px;
   margin: 4rem auto;
-  max-width: 1200px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
 }
 
 .rectangulo-proyectos::before {
   content: "";
   position: absolute;
+  z-index: -1;
   top: -3px;
   left: -3px;
   right: -3px;
@@ -294,7 +265,6 @@ h1 {
   background: linear-gradient(270deg, red, orange, yellow, green, blue, purple);
   background-size: 600% 600%;
   animation: animarGradiente 20s ease infinite;
-  z-index: -1;
   border-radius: 18px;
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
           mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
@@ -336,49 +306,76 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: regular;
+  display: flex;
+}
+.proyecto1 .proyecto1-img {
+  flex: 1 1 300px; /* Crece y se adapta */
+  max-width: 100%;
 }
 .proyecto1 .proyecto1-img img {
-  margin-top: 0%;
   width: 100%;
   height: auto;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .proyecto1 .proyecto1-text {
-  margin-top: 5%;
+  flex: 1 1 300px;
+  max-width: 100%;
+  font-family: "Poppins", sans-serif;
   color: #e0e0e0;
 }
 .proyecto1 .proyecto1-text .proyecto1-text-titulo {
-  font-size: clamp(20px, 2.8vw, 52px);
+  font-size: clamp(1.25rem, 2.8vw, 3.25rem);
   font-weight: bold;
+  text-align: center;
 }
 .proyecto1 .proyecto1-text .proyecto1-text-descripcion {
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(11px, 1.6vw, 20px);
+  font-size: clamp(0.6875rem, 1.6vw, 1.25rem);
   font-weight: 600;
   line-height: 1.5;
+  text-align: center;
 }
 
 /**/
 .proyecto2 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-style: regular;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+.proyecto2 .proyecto2-img {
+  flex: 1 1 300px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .proyecto2 .proyecto2-img img {
-  margin-top: 0%;
   width: 100%;
   height: auto;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .proyecto2 .proyecto2-text {
-  margin-top: 5%;
+  flex: 1 1 300px;
+  max-width: 100%;
   color: #e0e0e0;
+  text-align: center;
 }
 .proyecto2 .proyecto2-text .proyecto2-text-titulo {
-  font-size: clamp(20px, 2.8vw, 52px);
+  font-size: clamp(1.25rem, 2.8vw, 3.25rem);
   font-weight: bold;
 }
 .proyecto2 .proyecto2-text .proyecto2-text-descripcion {
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(11px, 1.6vw, 20px);
+  font-size: clamp(0.6875rem, 1.6vw, 1.25rem);
   font-weight: 600;
   line-height: 1.5;
 }
@@ -388,49 +385,76 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: regular;
+  display: flex;
+}
+.proyecto3 .proyecto3-img {
+  flex: 1 1 300px; /* Crece y se adapta */
+  max-width: 100%;
 }
 .proyecto3 .proyecto3-img img {
-  margin-top: 0%;
   width: 100%;
   height: auto;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .proyecto3 .proyecto3-text {
-  margin-top: 5%;
+  flex: 1 1 300px;
+  max-width: 100%;
+  font-family: "Poppins", sans-serif;
   color: #e0e0e0;
 }
 .proyecto3 .proyecto3-text .proyecto3-text-titulo {
-  font-size: clamp(20px, 2.8vw, 52px);
+  font-size: clamp(1.25rem, 2.8vw, 3.25rem);
   font-weight: bold;
+  text-align: center;
 }
 .proyecto3 .proyecto3-text .proyecto3-text-descripcion {
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(11px, 1.6vw, 20px);
+  font-size: clamp(0.6875rem, 1.6vw, 1.25rem);
   font-weight: 600;
   line-height: 1.5;
+  text-align: center;
 }
 
 /**/
 .proyecto4 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-style: regular;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+.proyecto4 .proyecto4-img {
+  flex: 1 1 300px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .proyecto4 .proyecto4-img img {
-  margin-top: 0%;
   width: 100%;
   height: auto;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .proyecto4 .proyecto4-text {
-  padding-top: 4.5%;
+  flex: 1 1 300px;
+  max-width: 100%;
   color: #e0e0e0;
+  text-align: center;
 }
 .proyecto4 .proyecto4-text .proyecto4-text-titulo {
-  font-size: clamp(20px, 2.8vw, 52px);
+  font-size: clamp(1.25rem, 2.8vw, 3.25rem);
   font-weight: bold;
 }
 .proyecto4 .proyecto4-text .proyecto4-text-descripcion {
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(11px, 1.6vw, 20px);
+  font-size: clamp(0.6875rem, 1.6vw, 1.25rem);
   font-weight: 600;
   line-height: 1.5;
 }
@@ -440,52 +464,76 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: regular;
+  display: flex;
+}
+.proyecto5 .proyecto5-img {
+  flex: 1 1 300px; /* Crece y se adapta */
+  max-width: 100%;
 }
 .proyecto5 .proyecto5-img img {
-  margin-top: 0%;
   width: 100%;
   height: auto;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .proyecto5 .proyecto5-text {
-  margin-top: 5%;
+  flex: 1 1 300px;
+  max-width: 100%;
+  font-family: "Poppins", sans-serif;
   color: #e0e0e0;
 }
 .proyecto5 .proyecto5-text .proyecto5-text-titulo {
-  font-size: clamp(20px, 2.8vw, 52px);
+  font-size: clamp(1.25rem, 2.8vw, 3.25rem);
   font-weight: bold;
+  text-align: center;
 }
 .proyecto5 .proyecto5-text .proyecto5-text-descripcion {
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(11px, 1.6vw, 20px);
+  font-size: clamp(0.6875rem, 1.6vw, 1.25rem);
   font-weight: 600;
   line-height: 1.5;
+  text-align: center;
 }
 
 /**/
 .proyecto6 {
-  margin-bottom: -1.5vh;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-style: regular;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+.proyecto6 .proyecto6-img {
+  flex: 1 1 300px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .proyecto6 .proyecto6-img img {
-  margin-top: 0%;
-  margin-right: 14vh;
-  max-height: 26.5vh;
-  width: 40%;
+  width: 100%;
   height: auto;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .proyecto6 .proyecto6-text {
-  margin-top: 5%;
+  flex: 1 1 300px;
+  max-width: 100%;
   color: #e0e0e0;
+  text-align: center;
 }
 .proyecto6 .proyecto6-text .proyecto6-text-titulo {
-  font-size: clamp(20px, 2.8vw, 52px);
+  font-size: clamp(1.25rem, 2.8vw, 3.25rem);
   font-weight: bold;
 }
 .proyecto6 .proyecto6-text .proyecto6-text-descripcion {
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(11px, 1.6vw, 20px);
+  font-size: clamp(0.6875rem, 1.6vw, 1.25rem);
   font-weight: 600;
   line-height: 1.5;
 }
@@ -495,61 +543,61 @@ h1 {
 */
 /**/
 .SobreMi-titulo .SobreMi-titulo-text {
-  margin: 5% 0 4% 0;
+  margin: 2.5rem 0 2rem 0;
   color: #fff;
   font-family: "Pinyon Script", cursive;
-  font-size: clamp(20px, 2.8vw, 52px);
+  font-size: clamp(1.25rem, 2.8vw, 3.25rem);
   text-align: center;
 }
 
 /**/
 .SobreMi1 {
-  padding-top: 2%;
-  padding-bottom: 6%;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
 }
 .SobreMi1 .SobreMi1-text {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: italic;
-  font-size: clamp(18px, 2vw, 46px);
+  font-size: clamp(1.125rem, 2vw, 2.875rem);
   margin-top: 0%;
-  padding-top: 10vh;
+  padding-top: 5.625rem;
 }
 .SobreMi1 .SobreMi1-text-resumen {
   font-family: "Inter", sans-serif;
-  font-size: clamp(13px, 1.4vw, 18px);
+  font-size: clamp(0.8125rem, 1.4vw, 1.125rem);
 }
 .SobreMi1 .SobreMi1-img {
-  margin-top: 5%;
-  padding-right: 5%;
+  margin-top: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 /*
         CONTACTO
 */
 .contacto {
-  padding-top: 8vh;
-  padding-left: 18vh;
-  margin-bottom: 15vh;
+  padding-top: 4.5rem;
+  padding-left: 10.125rem;
+  margin-bottom: 8.4375rem;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: italic;
 }
 .contacto .contacto-form {
-  padding-right: 18vh;
+  padding-right: 10.125rem;
 }
 .contacto .contacto-text {
-  margin-top: 1vh;
+  margin-top: 0.5625rem;
 }
 .contacto .contacto-text .contacto-texto-limitado {
   max-width: 60%;
 }
 .contacto .contacto-text .contacto-texto-limitado .contacto-titulo {
-  font-size: clamp(22px, 3vw, 56px);
+  font-size: clamp(1.375rem, 3vw, 3.5rem);
   font-family: "Playfair Display", serif;
 }
 .contacto .contacto-text .contacto-texto-limitado .contacto-sub-texto {
-  font-size: clamp(14px, 1.5vw, 20px);
+  font-size: clamp(0.875rem, 1.5vw, 1.25rem);
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: italic;
