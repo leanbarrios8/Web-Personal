@@ -180,165 +180,6 @@
     display: none;
   }
 }
-/* INICIO - SOBREMI - CONTACTO */
-@media screen and (max-width: 3441px) {
-  .inicio {
-    height: 46vh;
-  }
-  @keyframes extraindex {
-    0% {
-      height: 160vh;
-    }
-    100% {
-      height: 46vh;
-    }
-  }
-  .inicio .inicio1 {
-    padding-top: -1%;
-  }
-  .inicio .inicio2 {
-    padding-top: 1%;
-  }
-}
-@media screen and (max-width: 1921px) {
-  .inicio {
-    height: 38vh;
-  }
-  @keyframes extraindex {
-    0% {
-      height: 150vh;
-    }
-    100% {
-      height: 38vh;
-    }
-  }
-  .inicio .inicio1 {
-    padding-top: -1%;
-  }
-  .inicio .inicio2 {
-    padding-top: 1%;
-  }
-}
-@media screen and (max-width: 1441px) {
-  .inicio {
-    height: 38vh;
-  }
-  @keyframes extraindex {
-    0% {
-      height: 150vh;
-    }
-    100% {
-      height: 38vh;
-    }
-  }
-  .inicio .inicio1 {
-    display: block;
-    padding-top: 1%;
-  }
-  .inicio .inicio2 {
-    padding-top: 1%;
-  }
-}
-@media screen and (max-width: 1201px) {
-  .inicio {
-    padding-top: 8%;
-    height: 38vh;
-  }
-  @keyframes extraindex {
-    0% {
-      height: 140vh;
-    }
-    100% {
-      height: 38vh;
-    }
-  }
-  .inicio .inicio1 {
-    padding-top: 1%;
-  }
-  .inicio .inicio2 {
-    padding-top: 1%;
-  }
-}
-@media screen and (max-width: 993px) {
-  .inicio {
-    height: 27vh;
-  }
-  @keyframes extraindex {
-    0% {
-      height: 140vh;
-    }
-    100% {
-      height: 27vh;
-    }
-  }
-  .inicio .inicio1 {
-    margin-top: 1%;
-  }
-  .inicio .inicio2 {
-    display: none;
-    padding-top: 1%;
-  }
-}
-@media screen and (max-width: 769px) {
-  .inicio {
-    margin-top: -4%;
-    height: 20vh;
-  }
-  @keyframes extraindex {
-    0% {
-      height: 140vh;
-    }
-    100% {
-      height: 20vh;
-    }
-  }
-  .inicio .inicio1 {
-    margin-top: -1%;
-  }
-  .inicio .inicio2 {
-    display: none;
-  }
-}
-@media screen and (max-width: 570px) {
-  .inicio {
-    margin-top: -4%;
-    height: 18vh;
-  }
-  @keyframes extraindex {
-    0% {
-      height: 140vh;
-    }
-    100% {
-      height: 18vh;
-    }
-  }
-  .inicio .inicio1 {
-    margin-top: -1%;
-  }
-  .inicio .inicio2 {
-    display: none;
-  }
-}
-@media screen and (max-width: 370px) {
-  .inicio {
-    height: 14vh;
-    margin-top: -12%;
-  }
-  @keyframes extraindex {
-    0% {
-      height: 140vh;
-    }
-    100% {
-      height: 14vh;
-    }
-  }
-  .inicio .inicio1 {
-    margin-top: 5%;
-  }
-  .inicio .inicio2 {
-    display: none;
-  }
-}
 /* SOBREMI */
 @media screen and (max-width: 3441px) {
   .SobreMi-titulo .SobreMi-titulo-text {
@@ -372,12 +213,12 @@
 }
 @media screen and (max-width: 576px) {
   .SobreMi-titulo .SobreMi-titulo-text {
-    margin: 8.4rem 0 8.4rem 0;
+    margin: 7.4rem 0 7.4rem 0;
   }
 }
 @media screen and (max-width: 376px) {
   .SobreMi-titulo .SobreMi-titulo-text {
-    margin: 6rem 0 6rem 0;
+    margin: 5rem 0 5rem 0;
   }
 }
 /* SOBREMI DESCRIPCION */
@@ -407,7 +248,7 @@
     font-family: "inter";
   }
   .SobreMi1 .SobreMi1-img {
-    margin-top: 0vh;
+    margin-top: 6vh;
     padding-right: 5vw;
   }
 }
@@ -444,7 +285,7 @@
     text-align: center;
   }
   .SobreMi1 .SobreMi1-img {
-    margin-top: 13vh;
+    margin-top: 5vh;
     padding-right: 0;
   }
 }
@@ -460,39 +301,165 @@
     text-align: center;
   }
   .SobreMi1 .SobreMi1-img {
-    margin-top: 5vh;
-    padding-right: 5vw;
+    margin-top: 2vh;
+    padding-right: 0vw;
   }
 }
-/* PROYECTOS */
-@media screen and (max-width: 1919px) {
-  .linea-programador {
-    display: none;
+/* PROYECTOS INICIO INDEX */
+@media screen and (max-width: 3441px) {
+  .inicio {
+    height: 46vh;
+  }
+  @keyframes extraindex {
+    0% {
+      height: 160vh;
+    }
+    100% {
+      height: 46vh;
+    }
+  }
+  .inicio .inicio1 {
+    padding-top: 1rem;
+  }
+  .inicio .inicio2 {
+    padding-bottom: 3.75rem;
   }
 }
-@media screen and (max-width: 1400px) {
-  .linea-programador {
-    display: none;
+@media screen and (max-width: 1921px) {
+  .inicio {
+    height: 38vh;
+  }
+  @keyframes extraindex {
+    0% {
+      height: 150vh;
+    }
+    100% {
+      height: 38vh;
+    }
+  }
+  .inicio .inicio1 {
+    padding-top: 1rem;
+  }
+  .inicio .inicio2 {
+    padding-bottom: 3.75rem;
   }
 }
-@media screen and (max-width: 1200px) {
-  .linea-programador {
-    display: none;
+@media screen and (max-width: 1441px) {
+  .inicio {
+    height: 39vh;
+  }
+  @keyframes extraindex {
+    0% {
+      height: 150vh;
+    }
+    100% {
+      height: 39vh;
+    }
+  }
+  .inicio .inicio1 {
+    padding-top: 1rem;
+  }
+  .inicio .inicio2 {
+    padding-bottom: 3.75rem;
   }
 }
-@media screen and (max-width: 992px) {
-  .linea-programador {
-    display: none;
+@media screen and (max-width: 1201px) {
+  .inicio {
+    padding-top: 8%;
+    height: 36vh;
+  }
+  @keyframes extraindex {
+    0% {
+      height: 140vh;
+    }
+    100% {
+      height: 36vh;
+    }
+  }
+  .inicio .inicio1 {
+    padding-top: 1rem;
+  }
+  .inicio .inicio2 {
+    padding-bottom: 3.75rem;
   }
 }
-@media screen and (max-width: 768px) {
-  .linea-programador {
-    display: none;
+@media screen and (max-width: 993px) {
+  .inicio {
+    height: 31vh;
+  }
+  @keyframes extraindex {
+    0% {
+      height: 140vh;
+    }
+    100% {
+      height: 31vh;
+    }
+  }
+  .inicio .inicio1 {
+    padding-top: 1rem;
+  }
+  .inicio .inicio2 {
+    padding-bottom: 3.75rem;
   }
 }
-@media screen and (max-width: 576px) {
-  .linea-programador {
-    display: none;
+@media screen and (max-width: 769px) {
+  .inicio {
+    margin-top: -4%;
+    height: 24vh;
+  }
+  @keyframes extraindex {
+    0% {
+      height: 140vh;
+    }
+    100% {
+      height: 24vh;
+    }
+  }
+  .inicio .inicio1 {
+    padding-top: 1rem;
+  }
+  .inicio .inicio2 {
+    padding-bottom: 3.75rem;
+  }
+}
+@media screen and (max-width: 570px) {
+  .inicio {
+    margin-top: -4%;
+    height: 24vh;
+  }
+  @keyframes extraindex {
+    0% {
+      height: 140vh;
+    }
+    100% {
+      height: 24vh;
+    }
+  }
+  .inicio .inicio1 {
+    padding-top: 1rem;
+  }
+  .inicio .inicio2 {
+    padding-bottom: 3.75rem;
+  }
+}
+@media screen and (max-width: 370px) {
+  .inicio {
+    margin-top: -4%;
+    height: 24vh;
+  }
+  @keyframes extraindex {
+    0% {
+      height: 140vh;
+    }
+    100% {
+      height: 24vh;
+    }
+  }
+  .inicio .inicio1 {
+    padding-top: 1rem;
+  }
+  .inicio .inicio2 {
+    padding-bottom: 3.75rem;
   }
 }
 /* PROYECTOS TAMAÑOS CONTEINER */
@@ -1007,6 +974,67 @@
 }
 /* CONTACTO */
 @media screen and (max-width: 3441px) {
+  .contacto .inicio-contacto {
+    height: 36.6rem;
+  }
+  .contacto .inicio-contacto .inicio-contacto-texto {
+    padding: 6vh 0vh 1vh 0vh;
+  }
+}
+@media screen and (max-width: 1921px) {
+  .contacto .inicio-contacto {
+    height: 25.6rem;
+  }
+  .contacto .inicio-contacto .inicio-contacto-texto {
+    padding: 8vh 0vh 1vh 0vh;
+  }
+}
+@media screen and (max-width: 1441px) {
+  .contacto .inicio-contacto {
+    height: 22.2rem;
+  }
+  .contacto .inicio-contacto .inicio-contacto-texto {
+    padding: 9vh 0vh 1vh 0vh;
+  }
+}
+@media screen and (max-width: 1202px) {
+  .contacto .inicio-contacto {
+    height: 20.2rem;
+  }
+  .contacto .inicio-contacto .inicio-contacto-texto {
+    padding: 9vh 0vh 1vh 0vh;
+  }
+}
+@media screen and (max-width: 993px) {
+  .contacto .inicio-contacto {
+    height: 17.3rem;
+  }
+  .contacto .inicio-contacto .inicio-contacto-texto {
+    padding: 10vh 0vh 1vh 0vh;
+  }
+}
+@media screen and (max-width: 769px) {
+  .contacto .inicio-contacto {
+    height: 13.4rem;
+  }
+  .contacto .inicio-contacto .inicio-contacto-texto {
+    padding: 2vh 0vh 1vh 0vh;
+  }
+}
+@media screen and (max-width: 576px) {
+  .contacto .inicio-contacto {
+    height: 11.7rem;
+  }
+  .contacto .inicio-contacto .inicio-contacto-texto {
+    padding: 1vh 0vh 1vh 0vh;
+  }
+}
+@media screen and (max-width: 376px) {
+  .contacto .inicio-contacto .inicio-contacto-texto {
+    padding: 1vh 0vh 1vh 0vh;
+  }
+}
+@media screen and (max-width: 3441px) {
   .inicio-contacto {
     height: 30vh;
   }
@@ -1080,159 +1108,4 @@
     padding-top: 10vh;
   }
 }
-/* FORMULARIO CONTACTO */
-@media screen and (max-width: 3441px) {
-  .contacto {
-    padding-top: 8vh;
-    padding-left: 18vh;
-    margin-bottom: 15vh;
-  }
-  .contacto .contacto-form {
-    padding-right: 18vh;
-  }
-  .contacto .contacto-text {
-    margin-top: 1vh;
-  }
-  .contacto .contacto-text .contacto-texto-limitado {
-    max-width: 60%;
-  }
-  .contacto .contacto-text .contacto-texto-limitado .contacto-titulo {
-    font-size: clamp(1.375rem, 3vw, 3.5rem);
-  }
-  .contacto .contacto-text .contacto-texto-limitado .contacto-sub-texto {
-    font-size: clamp(0.875rem, 1.5vw, 1.25rem);
-  }
-}
-@media screen and (max-width: 1921px) {
-  .contacto {
-    padding-top: 8vh;
-    padding-left: 18vh;
-    margin-bottom: 15vh;
-  }
-  .contacto .contacto-form {
-    padding-right: 18vh;
-  }
-  .contacto .contacto-text {
-    margin-top: 1vh;
-  }
-  .contacto .contacto-text .contacto-texto-limitado {
-    max-width: 60%;
-  }
-  .contacto .contacto-text .contacto-texto-limitado .contacto-titulo {
-    font-size: clamp(1.375rem, 3vw, 3.5rem);
-  }
-  .contacto .contacto-text .contacto-texto-limitado .contacto-sub-texto {
-    font-size: clamp(0.875rem, 1.5vw, 1.25rem);
-  }
-}
-@media screen and (max-width: 1401px) {
-  .contacto {
-    padding-top: 6vh;
-    padding-left: 18vh;
-    margin-bottom: 15vh;
-  }
-  .contacto .contacto-form {
-    padding-right: 18vh;
-  }
-  .contacto .contacto-text {
-    margin-top: 1vh;
-  }
-  .contacto .contacto-text .contacto-texto-limitado {
-    max-width: 60%;
-  }
-  .contacto .contacto-text .contacto-texto-limitado .contacto-titulo {
-    font-size: clamp(1.375rem, 3vw, 3.5rem);
-  }
-  .contacto .contacto-text .contacto-texto-limitado .contacto-sub-texto {
-    font-size: clamp(0.875rem, 1.5vw, 1.25rem);
-  }
-}
-@media screen and (max-width: 1202px) {
-  .contacto {
-    padding-top: 5vh;
-    padding-left: 18vh;
-    margin-bottom: 15vh;
-  }
-  .contacto .contacto-form {
-    padding-right: 18vh;
-  }
-  .contacto .contacto-text {
-    margin-top: 1vh;
-  }
-  .contacto .contacto-text .contacto-texto-limitado {
-    max-width: 80%;
-  }
-  .contacto .contacto-text .contacto-texto-limitado .contacto-titulo {
-    font-size: clamp(1.375rem, 3vw, 3.5rem);
-  }
-  .contacto .contacto-text .contacto-texto-limitado .contacto-sub-texto {
-    font-size: clamp(0.875rem, 1.5vw, 1.25rem);
-  }
-}
-@media screen and (max-width: 993px) {
-  .contacto {
-    padding-top: 4vh;
-    padding-left: 3vh;
-    margin-bottom: 15vh;
-  }
-  .contacto .contacto-form {
-    padding-right: 8vh;
-  }
-  .contacto .contacto-text {
-    margin-top: 1vh;
-  }
-  .contacto .contacto-text .contacto-texto-limitado {
-    max-width: 80%;
-  }
-  .contacto .contacto-text .contacto-texto-limitado .contacto-titulo {
-    font-size: clamp(1.375rem, 2.5vw, 3.5rem);
-  }
-  .contacto .contacto-text .contacto-texto-limitado .contacto-sub-texto {
-    font-size: clamp(0.875rem, 1.5vw, 1.25rem);
-  }
-}
-@media screen and (max-width: 769px) {
-  .contacto {
-    padding-top: 3vh;
-    padding-left: 2vh;
-    margin-bottom: 15vh;
-  }
-  .contacto .contacto-form {
-    padding-right: 5vh;
-  }
-  .contacto .contacto-text {
-    margin-top: 0vh;
-  }
-  .contacto .contacto-text .contacto-texto-limitado {
-    max-width: 80%;
-  }
-  .contacto .contacto-text .contacto-texto-limitado .contacto-titulo {
-    font-size: clamp(1.375rem, 2vw, 3.5rem);
-  }
-  .contacto .contacto-text .contacto-texto-limitado .contacto-sub-texto {
-    font-size: clamp(0.875rem, 1.5vw, 1.25rem);
-  }
-}
-@media screen and (max-width: 576px) {
-  .contacto {
-    padding-top: 0vh;
-    padding-left: 1vh;
-    margin-bottom: 12vh;
-  }
-  .contacto .contacto-form {
-    margin-top: 2vh;
-    padding-right: 2vh;
-  }
-  .contacto .contacto-text {
-    margin-top: 1vh;
-  }
-  .contacto .contacto-text .contacto-texto-limitado {
-    max-width: 100%;
-  }
-  .contacto .contacto-text .contacto-texto-limitado .contacto-titulo {
-    font-size: clamp(1.375rem, 3vw, 3.5rem);
-  }
-  .contacto .contacto-text .contacto-texto-limitado .contacto-sub-texto {
-    font-size: clamp(0.875rem, 1.5vw, 1.25rem);
-  }
-}/*# sourceMappingURL=media.css.map */
+/* FORMULARIO CONTACTO *//*# sourceMappingURL=media.css.map */

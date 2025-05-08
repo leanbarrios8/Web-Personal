@@ -77,14 +77,12 @@
 
 <!-- -->
 <!----------------------------------------
-    INDEX INICIO
+    CONTACTO INICIO
 -->
 
-<div class="container-fluid" style="background-color: black;">
-    <div class="container inicio-contacto inicio" >
-        <div class="col fw-bold text-center inicio1-contacto inicio1" style="color: white;">
-            <p>Leandro Barrios</p>
-        </div>
+<div class="container-fluid contacto" style="background-color: black;">
+    <div class=" inicio-contacto">
+        <p class="inicio-contacto-texto fw-bold text-center">Leandro Barrios</p>
     </div>
 </div>
 
@@ -96,35 +94,30 @@
 <br>
 <br>
 
-<div class="container-fluid">
-    <div class="row align-items-center contacto">
-        <div class="col-md-6 text-start contacto-text">
-            <div class="contacto-texto-limitado">
-                <p class="fw-bolder contacto-titulo texto-gradiente">
+<div class="container-fluid contacto-formulario">
+    <div class="contacto-formulario-contenedor">
+        <div class="contacto-formulario1">
+            <p class="fw-bolder contacto-formulario1-titulo texto-gradiente">
                 Entra en contacto conmigo
-                </p>
-                <p class="fw-bold contacto-sub-texto">
-                    Mas abajo estan mis redes para que puedas conocerme un poco más. Además, en caso de necesitar ponerte en contacto, te invito a que llenes el formulario con una breve descripción de tu comunicación y cuanto antes intentaré responderte!
-                </p>
-            </div>
+            </p>
+            <p class="fw-bold contacto-formulario1-titulo-subtexto">
+                Más abajo están mis redes para que puedas conocerme un poco más. Además, en caso de necesitar ponerte en contacto, te invito a que llenes el formulario con una breve descripción de tu comunicación y cuanto antes intentaré responderte.
+            </p>
         </div>
-        <div class="col-md-6 text-start contacto-form">
+        <div class="contacto-form">
             <form action="https://formsubmit.co/leandrobarrios8@gmail.com" method="POST">
                 <div class="mb-3">
                     <label for="nombre" class="form-label fw-bold">Tu nombre</label>
-                    <input type="texto" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required>
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required>
                 </div>
-                
                 <div class="mb-3">
                     <label for="email" class="form-label fw-bold">Email</label>
                     <input type="email" class="form-control" id="email" name="email" placeholder="email@ejemplo.com" required>
                 </div>
-                
                 <div class="mb-3">
                     <label for="mensaje" class="form-label fw-bold">Mensaje</label>
                     <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
                 </div>
-                
                 <button type="submit" class="btn btn-outline-primary rounded-pill">Enviar</button>
             </form>
         </div>

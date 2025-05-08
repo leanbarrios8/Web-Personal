@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* FUENTES */
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap");
 /* HTML */
@@ -141,15 +140,8 @@ html {
 .inicio .inicio1 {
   font-size: clamp(2.75rem, 6.8vw, 6.875rem);
   font-family: "Great Vibes", cursive;
+  padding-top: 1rem;
 }
-.inicio .inicio-img {
-  padding-top: 0.625rem;
-  border-radius: 100px;
-}
-.inicio .yo-img {
-  border-radius: 100px;
-}
-
 .inicio .inicio2 {
   font-family: "Nunito", sans-serif;
   font-size: clamp(0.6875rem, 1.6vw, 1.25rem);
@@ -181,58 +173,6 @@ html {
   transform: translateY(-7px);
 }
 
-.linea-flotante {
-  position: relative;
-  transition: all 300ms ease 0ms;
-  z-index: 20;
-  left: 5%;
-}
-
-.linea-programador-fondo {
-  position: fixed;
-  top: 0;
-  left: calc(20% - 200px);
-  width: 10px; /* o el ancho de tu imagen */
-  height: 100%;
-  background-image: url("/img/Linea-discontinua.png");
-  background-repeat: repeat-y;
-  background-position: center;
-  z-index: -1; /* Para que quede detrás del contenido */
-}
-
-.programador-movimiento {
-  position: absolute;
-  top: -100px;
-  left: calc(20% - 242px);
-  animation: moverImagen 20s linear infinite;
-}
-
-.programador-movimiento img {
-  display: block;
-  width: 94px;
-  height: auto;
-  animation: rotarLeve 2s ease-in-out infinite;
-}
-
-@keyframes moverImagen {
-  0% {
-    top: -100px;
-  }
-  100% {
-    top: 100%;
-  }
-}
-@keyframes rotarLeve {
-  0% {
-    transform: rotate(-7deg);
-  }
-  50% {
-    transform: rotate(5deg);
-  }
-  100% {
-    transform: rotate(-7deg);
-  }
-}
 .seccion-ajustada-proyectos {
   scroll-margin-top: 6rem;
   position: relative;
@@ -542,26 +482,54 @@ html {
         SOBREMI
 */
 /**/
+.SobreMi-titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem 1rem 2rem;
+  background-color: black;
+}
+.SobreMi-titulo .SobreMi-titulo-contenido {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .SobreMi-titulo .SobreMi-titulo-text {
-  margin: 2.5rem 0 2rem 0;
   color: #fff;
   font-family: "Pinyon Script", cursive;
   font-size: clamp(1.25rem, 2.8vw, 3.25rem);
-  text-align: center;
 }
 
 /**/
 .SobreMi1 {
   padding-top: 1rem;
-  padding-bottom: 3rem;
+  padding-bottom: 6rem;
+}
+.SobreMi1 .SobreMi1-flex {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2rem;
+}
+@media (min-width: 768px) {
+  .SobreMi1 .SobreMi1-flex {
+    flex-direction: row;
+    align-items: center;
+  }
 }
 .SobreMi1 .SobreMi1-text {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: italic;
   font-size: clamp(1.125rem, 2vw, 2.875rem);
-  margin-top: 0%;
-  padding-top: 5.625rem;
+  padding-top: 2rem;
+}
+@media (min-width: 768px) {
+  .SobreMi1 .SobreMi1-text {
+    padding-top: 5.625rem;
+    flex: 1;
+  }
 }
 .SobreMi1 .SobreMi1-text-resumen {
   font-family: "Inter", sans-serif;
@@ -569,38 +537,77 @@ html {
 }
 .SobreMi1 .SobreMi1-img {
   margin-top: 2.5rem;
-  padding-right: 2.5rem;
+  padding-right: 0;
+}
+@media (min-width: 768px) {
+  .SobreMi1 .SobreMi1-img {
+    padding-right: 2.5rem;
+    flex: 1;
+  }
+}
+.SobreMi1 .SobreMi1-img img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /*
         CONTACTO
 */
-.contacto {
-  padding-top: 4.5rem;
-  padding-left: 10.125rem;
-  margin-bottom: 8.4375rem;
+.contacto .inicio-contacto {
+  height: 25.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contacto .inicio-contacto .inicio-contacto-texto {
+  padding: 10vh 0vh 1vh 0vh;
+  color: #fff;
+  font-size: clamp(2.75rem, 6.8vw, 6.875rem);
+  font-family: "Great Vibes", cursive;
+  text-align: center;
+}
+
+.contacto-formulario {
+  padding: 4.5rem 1rem 8.4375rem;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: italic;
 }
-.contacto .contacto-form {
-  padding-right: 10.125rem;
+.contacto-formulario .contacto-formulario-contenedor {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
-.contacto .contacto-text {
-  margin-top: 0.5625rem;
+@media (min-width: 768px) {
+  .contacto-formulario .contacto-formulario-contenedor {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 }
-.contacto .contacto-text .contacto-texto-limitado {
-  max-width: 60%;
+.contacto-formulario .contacto-formulario1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
-.contacto .contacto-text .contacto-texto-limitado .contacto-titulo {
+.contacto-formulario .contacto-formulario1 .contacto-formulario1-titulo {
   font-size: clamp(1.375rem, 3vw, 3.5rem);
   font-family: "Playfair Display", serif;
 }
-.contacto .contacto-text .contacto-texto-limitado .contacto-sub-texto {
+.contacto-formulario .contacto-formulario1 .contacto-formulario1-titulo-subtexto {
   font-size: clamp(0.875rem, 1.5vw, 1.25rem);
-  font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-style: italic;
+}
+.contacto-formulario .contacto-form {
+  flex: 1;
+  max-width: 100%;
+}
+.contacto-formulario .contacto-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 /**//*# sourceMappingURL=estilos.css.map */
