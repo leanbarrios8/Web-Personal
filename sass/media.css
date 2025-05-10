@@ -345,158 +345,156 @@
 /* PROYECTOS INICIO INDEX */
 @media screen and (max-width: 3441px) {
   .inicio {
-    height: 46vh;
+    height: 50vh;
   }
   @keyframes extraindex {
     0% {
-      height: 160vh;
+      height: 100vh;
     }
     100% {
-      height: 46vh;
+      height: 50vh;
     }
   }
   .inicio .inicio1 {
-    padding-top: 1rem;
+    padding-top: 0rem;
   }
   .inicio .inicio2 {
-    padding-bottom: 3.75rem;
+    padding-bottom: 0rem;
   }
 }
 @media screen and (max-width: 1921px) {
   .inicio {
-    height: 38vh;
+    height: 48vh;
   }
   @keyframes extraindex {
     0% {
-      height: 150vh;
+      height: 100vh;
     }
     100% {
-      height: 38vh;
+      height: 48vh;
     }
   }
   .inicio .inicio1 {
-    padding-top: 1rem;
+    padding-top: 0rem;
   }
   .inicio .inicio2 {
-    padding-bottom: 3.75rem;
+    padding-bottom: 0rem;
   }
 }
 @media screen and (max-width: 1441px) {
   .inicio {
-    height: 39vh;
+    height: 47vh;
   }
   @keyframes extraindex {
     0% {
-      height: 150vh;
+      height: 100vh;
     }
     100% {
-      height: 39vh;
+      height: 47vh;
     }
   }
   .inicio .inicio1 {
-    padding-top: 1rem;
+    padding-top: 0rem;
   }
   .inicio .inicio2 {
-    padding-bottom: 3.75rem;
+    padding-bottom: 0rem;
   }
 }
 @media screen and (max-width: 1201px) {
   .inicio {
-    padding-top: 8%;
-    height: 36vh;
+    height: 40vh;
   }
   @keyframes extraindex {
     0% {
-      height: 140vh;
+      height: 100vh;
     }
     100% {
-      height: 36vh;
+      height: 40vh;
     }
   }
   .inicio .inicio1 {
-    padding-top: 1rem;
+    padding-top: 0rem;
   }
   .inicio .inicio2 {
-    padding-bottom: 3.75rem;
+    padding-bottom: 0rem;
   }
 }
 @media screen and (max-width: 993px) {
   .inicio {
-    height: 31vh;
+    height: 34vh;
   }
   @keyframes extraindex {
     0% {
-      height: 140vh;
+      height: 100vh;
     }
     100% {
-      height: 31vh;
+      height: 34vh;
     }
   }
   .inicio .inicio1 {
-    padding-top: 1rem;
+    padding-top: 0rem;
   }
   .inicio .inicio2 {
-    padding-bottom: 3.75rem;
+    padding-bottom: 0rem;
   }
 }
 @media screen and (max-width: 769px) {
   .inicio {
-    margin-top: -4%;
     height: 24vh;
   }
   @keyframes extraindex {
     0% {
-      height: 140vh;
+      height: 100vh;
     }
     100% {
       height: 24vh;
     }
   }
   .inicio .inicio1 {
-    padding-top: 1rem;
+    padding-top: 0rem;
   }
   .inicio .inicio2 {
-    padding-bottom: 3.75rem;
+    padding-bottom: 0rem;
   }
 }
 @media screen and (max-width: 570px) {
   .inicio {
     margin-top: -4%;
-    height: 24vh;
+    height: 22vh;
   }
   @keyframes extraindex {
     0% {
-      height: 140vh;
+      height: 100vh;
     }
     100% {
-      height: 24vh;
+      height: 22vh;
     }
   }
   .inicio .inicio1 {
-    padding-top: 1rem;
+    padding-top: 0rem;
   }
   .inicio .inicio2 {
-    padding-bottom: 3.75rem;
+    padding-bottom: 0rem;
   }
 }
 @media screen and (max-width: 370px) {
   .inicio {
     margin-top: -4%;
-    height: 24vh;
+    height: 22vh;
   }
   @keyframes extraindex {
     0% {
-      height: 140vh;
+      height: 100vh;
     }
     100% {
-      height: 24vh;
+      height: 22vh;
     }
   }
   .inicio .inicio1 {
-    padding-top: 1rem;
+    padding-top: 0rem;
   }
   .inicio .inicio2 {
-    padding-bottom: 3.75rem;
+    padding-bottom: 0rem;
   }
 }
 /* PROYECTOS TAMAÑOS CONTEINER */
@@ -1012,65 +1010,61 @@
 /* CONTACTO */
 @media screen and (max-width: 3441px) {
   .contacto .inicio-contacto {
-    height: 36.6rem;
+    height: 55.55vh;
   }
   .contacto .inicio-contacto .inicio-contacto-texto {
-    padding: 6vh 0vh 1vh 0vh;
+    padding-top: 1.8vh;
   }
 }
 @media screen and (max-width: 1921px) {
   .contacto .inicio-contacto {
-    height: 25.6rem;
+    height: 54.55vh;
   }
   .contacto .inicio-contacto .inicio-contacto-texto {
-    padding: 8vh 0vh 1vh 0vh;
+    margin-top: -5.7vh;
   }
 }
 @media screen and (max-width: 1441px) {
   .contacto .inicio-contacto {
-    height: 22.2rem;
+    height: 54.9vh;
   }
   .contacto .inicio-contacto .inicio-contacto-texto {
-    padding: 9vh 0vh 1vh 0vh;
+    margin-top: -4.4vh;
   }
 }
 @media screen and (max-width: 1202px) {
   .contacto .inicio-contacto {
-    height: 20.2rem;
+    height: 47.9vh;
   }
   .contacto .inicio-contacto .inicio-contacto-texto {
-    padding: 9vh 0vh 1vh 0vh;
+    margin-top: -3.1vh;
   }
 }
 @media screen and (max-width: 993px) {
   .contacto .inicio-contacto {
-    height: 17.3rem;
+    height: 40.9vh;
   }
   .contacto .inicio-contacto .inicio-contacto-texto {
-    padding: 10vh 0vh 1vh 0vh;
+    margin-top: -7.3vh;
   }
 }
 @media screen and (max-width: 769px) {
   .contacto .inicio-contacto {
-    height: 13.4rem;
+    height: 30.9vh;
   }
   .contacto .inicio-contacto .inicio-contacto-texto {
-    padding: 2vh 0vh 1vh 0vh;
+    margin-top: -1.1vh;
   }
 }
 @media screen and (max-width: 576px) {
   .contacto .inicio-contacto {
-    height: 11.7rem;
+    height: 28.6vh;
   }
   .contacto .inicio-contacto .inicio-contacto-texto {
-    padding: 1vh 0vh 1vh 0vh;
+    margin-top: -2.5vh;
   }
 }
-@media screen and (max-width: 376px) {
-  .contacto .inicio-contacto .inicio-contacto-texto {
-    padding: 1vh 0vh 1vh 0vh;
-  }
-}
+/* CONTACTO TEXTO */
 @media screen and (max-width: 3441px) {
   .inicio-contacto {
     height: 30vh;
