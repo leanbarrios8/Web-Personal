@@ -2,94 +2,131 @@
 /*
 
 /* */
-/* NAV1 */
+/* NAV */
 @media screen and (max-width: 3441px) {
-  .nav1 .navbar-logo {
-    max-width: 5.4vh;
+  .nav li {
+    margin-right: 1.625rem;
+    margin-left: 1.625rem;
+    font-size: clamp(0.6875rem, 1.6vw, 1.25rem);
+    border: 2.5px solid transparent;
+  }
+  .nav li:hover {
+    border-radius: 10px;
+  }
+  .nav li .navbar-text-contacto:hover {
+    color: black !important;
+    transition: color 0.2s ease, background-color 0.4s ease;
   }
 }
 @media screen and (max-width: 1921px) {
-  .nav1 .navbar-logo {
-    max-width: 6.2vh;
+  .nav li {
+    margin-right: 1.325rem;
+    margin-left: 1.325rem;
+    font-size: clamp(0.6875rem, 1.6vw, 1.25rem);
+    border: 2.5px solid transparent;
+  }
+  .nav li:hover {
+    border-radius: 10px;
+  }
+  .nav li .navbar-text-contacto:hover {
+    color: black !important;
+    transition: color 0.2s ease, background-color 0.4s ease;
   }
 }
 @media screen and (max-width: 1441px) {
-  .nav1 .navbar-logo {
-    max-width: 7.4vh;
+  .nav li {
+    margin-right: 1.325rem;
+    margin-left: 1.325rem;
+    font-size: clamp(0.6875rem, 1.6vw, 1.25rem);
+    border: 2.5px solid transparent;
+  }
+  .nav li:hover {
+    border-radius: 10px;
+  }
+  .nav li .navbar-text-contacto:hover {
+    color: black !important;
+    transition: color 0.2s ease, background-color 0.4s ease;
   }
 }
 @media screen and (max-width: 1201px) {
-  .nav1 .navbar-logo {
-    max-width: 7vh;
+  .nav li {
+    margin-right: 0.325rem;
+    margin-left: 0.325rem;
+    font-size: clamp(0.6875rem, 1.6vw, 1.25rem);
+    border: 2.5px solid transparent;
+  }
+  .nav li:hover {
+    border-radius: 10px;
+  }
+  .nav li .navbar-text-contacto:hover {
+    color: black !important;
+    transition: color 0.2s ease, background-color 0.4s ease;
   }
 }
 @media screen and (max-width: 993px) {
-  .nav1 {
-    display: none;
-    max-width: 990px;
+  .nav li {
+    margin-right: 0.325rem;
+    margin-left: 0.325rem;
+    font-size: clamp(0.6875rem, 1.6vw, 1.25rem);
+    border: 2.5px solid transparent;
   }
-  .nav1 .navbar-logo {
-    max-width: 7vh;
+  .nav li:hover {
+    border-radius: 10px;
   }
-}
-@media screen and (max-width: 769px) {
-  .nav1 {
-    display: none;
-    max-width: 760px;
-  }
-  .nav1 .navbar-logo {
-    max-width: 5.4vh;
-  }
-}
-@media screen and (max-width: 570px) {
-  .nav1 {
-    display: none;
-    max-width: 570px;
-  }
-  .nav1 .navbar-logo {
-    max-width: 5.4vh;
-  }
-}
-@media screen and (max-width: 370px) {
-  .nav1 {
-    display: none;
-    max-width: 370px;
-  }
-  .nav1 .navbar-logo {
-    max-width: 5.4vh;
-  }
-}
-/* NAV2 */
-@media screen and (max-width: 993px) {
-  .nav2 {
-    max-width: 990px;
-  }
-  .nav2 .navbar2-logo {
-    max-width: 3.4vh;
+  .nav li .navbar-text-contacto:hover {
+    color: black !important;
+    transition: color 0.2s ease, background-color 0.4s ease;
   }
 }
 @media screen and (max-width: 769px) {
-  .nav2 {
-    max-width: 760px;
+  .nav .navbar-text a {
+    padding: 0.4rem 0.8rem;
   }
-  .nav2 .navbar2-logo {
-    max-width: 3.4vh;
+  .nav li {
+    margin-right: 0.325rem;
+    margin-left: 0.325rem;
+    font-size: clamp(1.1875rem, 1.6vw, 1.25rem);
+  }
+  .nav li:hover {
+    border-radius: 10px;
+  }
+  .nav li .navbar-text-contacto:hover {
+    color: black !important;
+    transition: color 0.2s ease, background-color 0.4s ease;
   }
 }
 @media screen and (max-width: 570px) {
-  .nav2 {
-    max-width: 570px;
+  .nav .navbar-text a {
+    padding: 0.4rem 0.8rem;
   }
-  .nav2 .navbar2-logo {
-    max-width: 3.4vh;
+  .nav li {
+    margin-right: 0.325rem;
+    margin-left: 0.325rem;
+    font-size: clamp(1.1875rem, 1.6vw, 1.25rem);
+  }
+  .nav li:hover {
+    border-radius: 10px;
+  }
+  .nav li .navbar-text-contacto:hover {
+    color: black !important;
+    transition: color 0.2s ease, background-color 0.4s ease;
   }
 }
 @media screen and (max-width: 370px) {
-  .nav2 {
-    max-width: 370px;
+  .nav .navbar-text a {
+    padding: 0.4rem 0.8rem;
   }
-  .nav2 .navbar2-logo {
-    max-width: 3vh;
+  .nav li {
+    margin-right: 0.325rem;
+    margin-left: 0.325rem;
+    font-size: clamp(1.1875rem, 1.6vw, 1.25rem);
+  }
+  .nav li:hover {
+    border-radius: 10px;
+  }
+  .nav li .navbar-text-contacto:hover {
+    color: black !important;
+    transition: color 0.2s ease, background-color 0.4s ease;
   }
 }
 /* FOOTER */

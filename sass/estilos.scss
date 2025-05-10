@@ -86,10 +86,10 @@ html {
             HEADER
 */
 
-.nav1 {
+.nav {
     border-bottom: none !important;
-    .navbar-logo{
-        max-width: 5.4vh;
+    .navbar-logo {
+        max-width: 4.4vh;
     }
     .navbar-text {
         display: flex;
@@ -97,30 +97,29 @@ html {
         align-items: center;
         gap: 2rem;
         font-family: "Montserrat", sans-serif;
-    a {
-        white-space: nowrap;
-        text-align: center;
-    }
-    }
-    li {
-        padding-right: 0.625rem;
-        padding-left: 0.625rem;
-        font-size: clamp(0.6875rem, 1.6vw, 1.25rem);
-        &:hover {
-        transition: all 0.5s;
-        font-size: clamp(0.75rem, 1.7vw, 1.375rem);
-        border: 6px groove $color-lean;
-        border-radius: 100px;
+        a {
+            white-space: nowrap;
+            text-align: center;
         }
     }
-}
-
-.nav2 {
-    border-bottom: none !important;
-    font-family: "Montserrat", sans-serif;
-    .nav2-link {
-        font-size: clamp(1.25rem, 2.8vw, 1.8125rem);
-        font-weight: 500;
+    li {
+        margin-right: 1.625rem;
+        margin-left: 1.625rem;
+        font-size: clamp(0.6875rem, 1.6vw, 1.25rem);
+        border: 2.5px solid transparent;
+        &:hover {
+            border: 2.5px groove $color-lean;
+            border-radius: 10px;
+        }
+    }
+    .navbar-text-contacto {
+        padding: 0.4rem 0.8rem;
+        border-radius: 10px;
+        &:hover {
+            background-color: $color-lean;
+            color: black !important;
+            transition: color 0.2s ease, background-color 0.4s ease;
+        }
     }
 }
 
