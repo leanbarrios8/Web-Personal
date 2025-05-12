@@ -472,165 +472,161 @@
 /* PROYECTOS INICIO INDEX */
 
 @media screen and (max-width: 3441px) {
-    .inicio{
-        height: 50vh;
-        @keyframes extraindex {
-            0%{
-                height: 100vh;
-            }
-            100%{
-                height: 50vh;
-            }
-        }
-        .inicio1{
-            padding-top: 0rem;
-        }
-        .inicio2{
-            padding-bottom: 0rem;
-        }
+.inicio {
+    height: 35vh;
+    padding: 2rem 1rem;
+    margin: 0;
+    animation-name: extraindex;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    @keyframes extraindex {
+    0% {
+        height: 100vh;
     }
+    100% {
+        height: 35vh;
+    }
+    }
+}
 }
 
 @media screen and (max-width: 1921px) {
-    .inicio{
-        height: 48vh;
-        @keyframes extraindex {
-            0%{
-                height: 100vh;
-            }
-            100%{
-                height: 48vh;
-            }
-        }
-        .inicio1{
-            padding-top: 0rem;
-        }
-        .inicio2{
-            padding-bottom: 0rem;
-        }
+.inicio {
+    height: 35vh;
+    padding: 2rem 1rem;
+    margin: 0;
+    animation-name: extraindex;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    @keyframes extraindex {
+    0% {
+        height: 100vh;
     }
+    100% {
+        height: 35vh;
+    }
+    }
+}
 }
 
 @media screen and (max-width: 1441px) {
-    .inicio{
-        height: 47vh;
-        @keyframes extraindex {
-            0%{
-                height: 100vh;
-            }
-            100%{
-                height: 47vh;
-            }
-        }
-        .inicio1{
-            padding-top: 0rem;
-        }
-        .inicio2{
-            padding-bottom: 0rem;
-        }
+.inicio {
+    height: 35vh;
+    padding: 2rem 1rem;
+    margin: 0;
+    animation-name: extraindex;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    @keyframes extraindex {
+    0% {
+        height: 100vh;
+    }
+    100% {
+        height: 35vh;
+    }
     }
 }
+}
 
-@media screen and (max-width: 1201px) {
-    .inicio{
-        height: 40vh;
-        @keyframes extraindex {
-            0%{
-                height: 100vh;
-            }
-            100%{
-                height: 40vh;
-            }
-        }
-        .inicio1{
-            padding-top: 0rem;
-        }
-        .inicio2{
-            padding-bottom: 0rem;
-        }
+@media screen and (max-width: 1202px) {
+.inicio {
+    height: 35vh;
+    padding: 2rem 1rem;
+    margin: 0;
+    animation-name: extraindex;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    @keyframes extraindex {
+    0% {
+        height: 100vh;
     }
+    100% {
+        height: 35vh;
+    }
+    }
+}
 }
 
 @media screen and (max-width: 993px) {
-    .inicio{
-        height: 34vh;
-        @keyframes extraindex {
-            0%{
-                height: 100vh;
-            }
-            100%{
-                height: 34vh;
-            }
-        }
-        .inicio1{
-            padding-top: 0rem;
-        }
-        .inicio2{
-            padding-bottom: 0rem;
-        }
+.inicio {
+    height: 35vh;
+    padding: 2rem 1rem;
+    margin: 0;
+    animation-name: extraindex;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    @keyframes extraindex {
+    0% {
+        height: 100vh;
     }
+    100% {
+        height: 35vh;
+    }
+    }
+}
 }
 
 @media screen and (max-width: 769px) {
-    .inicio{
-        height: 24vh;
-        @keyframes extraindex {
-            0%{
-                height: 100vh;
-            }
-            100%{
-                height: 24vh;
-            }
-        }
-        .inicio1{
-            padding-top: 0rem;
-        }
-        .inicio2{
-            padding-bottom: 0rem;
-        }
+.inicio {
+    height: 35vh;
+    padding: 2rem 1rem;
+    margin: 0;
+    animation-name: extraindex;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    @keyframes extraindex {
+    0% {
+        height: 100vh;
+    }
+    100% {
+        height: 35vh;
+    }
     }
 }
-
-@media screen and (max-width: 570px) {
-    .inicio{
-        margin-top: -4%;
-        height: 22vh;
-        @keyframes extraindex {
-            0%{
-                height: 100vh;
-            }
-            100%{
-                height: 22vh;
-            }
-        }
-        .inicio1{
-            padding-top: 0rem;
-        }
-        .inicio2{
-            padding-bottom: 0rem;
-        }
-    }
 }
 
-@media screen and (max-width: 370px) {
-    .inicio{
-        margin-top: -4%;
-        height: 22vh;
-        @keyframes extraindex {
-            0%{
-                height: 100vh;
-            }
-            100%{
-                height: 22vh;
-            }
-        }
-        .inicio1{
-            padding-top: 0rem;
-        }
-        .inicio2{
-            padding-bottom: 0rem;
-        }
+@media screen and (max-width: 576px) {
+.inicio {
+    height: 35vh;
+    padding: 2rem 1rem;
+    margin: 0;
+    animation-name: extraindex;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    @keyframes extraindex {
+    0% {
+        height: 100vh;
     }
+    100% {
+        height: 35vh;
+    }
+    }
+    .inicio {
+    padding-top: 1rem;
+    }
+}
+}
+
+@media screen and (max-width: 376px) {
+.inicio {
+    height: 35vh;
+    padding: 2rem 1rem;
+    margin: 0;
+    animation-name: extraindex;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    @keyframes extraindex {
+    0% {
+        height: 100vh;
+    }
+    100% {
+        height: 35vh;
+    }
+    }
+    .inicio {
+    padding-top: 1rem;
+    }
+}
 }
 
 /* PROYECTOS TAMAÑOS CONTEINER */
