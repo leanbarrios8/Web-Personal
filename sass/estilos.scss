@@ -578,17 +578,18 @@ html {
 */
 
 .contacto{
-    .inicio-contacto {
-        height: 55.55vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .inicio-contacto-texto {
-            color: $color-blanco;
-            font-size: clamp(2.75rem, 6.8vw, 6.875rem);
-            font-family: "Great Vibes", cursive;
-            text-align: center;
-        }
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    .contacto-texto1{
+        color: $color-blanco;
+        font-size: clamp(2.75rem, 6.8vw, 6.875rem);
+        font-family: "Great Vibes", cursive;
+        text-align: center;
     }
 }
 

@@ -554,13 +554,16 @@ html {
 /*
         CONTACTO
 */
-.contacto .inicio-contacto {
-  height: 55.55vh;
+.contacto {
+  width: 100vw;
+  height: 35vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
-.contacto .inicio-contacto .inicio-contacto-texto {
+.contacto .contacto-texto1 {
   color: #fff;
   font-size: clamp(2.75rem, 6.8vw, 6.875rem);
   font-family: "Great Vibes", cursive;

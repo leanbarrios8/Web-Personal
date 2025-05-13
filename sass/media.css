@@ -1005,59 +1005,153 @@
 }
 /* CONTACTO */
 @media screen and (max-width: 3441px) {
-  .contacto .inicio-contacto {
-    height: 55.55vh;
+  .contacto {
+    height: 35vh;
+    padding: 2rem 1rem;
+    margin: 0;
+    animation-name: extraindex;
+    animation-duration: 4s;
+    animation-delay: 0s;
   }
-  .contacto .inicio-contacto .inicio-contacto-texto {
-    padding-top: 1.8vh;
+  @keyframes extraindex {
+    0% {
+      height: 100vh;
+    }
+    100% {
+      height: 35vh;
+    }
   }
 }
 @media screen and (max-width: 1921px) {
-  .contacto .inicio-contacto {
-    height: 54.55vh;
+  .contacto {
+    height: 35vh;
+    padding: 2rem 1rem;
+    margin: 0;
+    animation-name: extraindex;
+    animation-duration: 4s;
+    animation-delay: 0s;
   }
-  .contacto .inicio-contacto .inicio-contacto-texto {
-    margin-top: -5.7vh;
+  @keyframes extraindex {
+    0% {
+      height: 100vh;
+    }
+    100% {
+      height: 35vh;
+    }
   }
 }
 @media screen and (max-width: 1441px) {
-  .contacto .inicio-contacto {
-    height: 54.9vh;
+  .contacto {
+    height: 35vh;
+    padding: 2rem 1rem;
+    margin: 0;
+    animation-name: extraindex;
+    animation-duration: 4s;
+    animation-delay: 0s;
   }
-  .contacto .inicio-contacto .inicio-contacto-texto {
-    margin-top: -4.4vh;
+  @keyframes extraindex {
+    0% {
+      height: 100vh;
+    }
+    100% {
+      height: 35vh;
+    }
   }
 }
 @media screen and (max-width: 1202px) {
-  .contacto .inicio-contacto {
-    height: 47.9vh;
+  .contacto {
+    height: 35vh;
+    padding: 2rem 1rem;
+    margin: 0;
+    animation-name: extraindex;
+    animation-duration: 4s;
+    animation-delay: 0s;
   }
-  .contacto .inicio-contacto .inicio-contacto-texto {
-    margin-top: -3.1vh;
+  @keyframes extraindex {
+    0% {
+      height: 100vh;
+    }
+    100% {
+      height: 35vh;
+    }
   }
 }
 @media screen and (max-width: 993px) {
-  .contacto .inicio-contacto {
-    height: 40.9vh;
+  .contacto {
+    height: 35vh;
+    padding: 2rem 1rem;
+    margin: 0;
+    animation-name: extraindex;
+    animation-duration: 4s;
+    animation-delay: 0s;
   }
-  .contacto .inicio-contacto .inicio-contacto-texto {
-    margin-top: -7.3vh;
+  @keyframes extraindex {
+    0% {
+      height: 100vh;
+    }
+    100% {
+      height: 35vh;
+    }
   }
 }
 @media screen and (max-width: 769px) {
-  .contacto .inicio-contacto {
-    height: 30.9vh;
+  .contacto {
+    height: 35vh;
+    padding: 2rem 1rem;
+    margin: 0;
+    animation-name: extraindex;
+    animation-duration: 4s;
+    animation-delay: 0s;
   }
-  .contacto .inicio-contacto .inicio-contacto-texto {
-    margin-top: -1.1vh;
+  @keyframes extraindex {
+    0% {
+      height: 100vh;
+    }
+    100% {
+      height: 35vh;
+    }
   }
 }
 @media screen and (max-width: 576px) {
-  .contacto .inicio-contacto {
-    height: 28.6vh;
+  .contacto {
+    height: 35vh;
+    padding: 2rem 1rem;
+    margin: 0;
+    animation-name: extraindex;
+    animation-duration: 4s;
+    animation-delay: 0s;
   }
-  .contacto .inicio-contacto .inicio-contacto-texto {
-    margin-top: -2.5vh;
+  @keyframes extraindex {
+    0% {
+      height: 100vh;
+    }
+    100% {
+      height: 35vh;
+    }
+  }
+  .contacto .contacto {
+    padding-top: 1rem;
+  }
+}
+@media screen and (max-width: 376px) {
+  .contacto {
+    height: 35vh;
+    padding: 2rem 1rem;
+    margin: 0;
+    animation-name: extraindex;
+    animation-duration: 4s;
+    animation-delay: 0s;
+  }
+  @keyframes extraindex {
+    0% {
+      height: 100vh;
+    }
+    100% {
+      height: 35vh;
+    }
+  }
+  .contacto .contacto {
+    padding-top: 1rem;
   }
 }
 /* CONTACTO TEXTO */
