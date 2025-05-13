@@ -482,24 +482,20 @@ html {
         SOBREMI
 */
 /**/
-.SobreMi-titulo {
+.sobremi {
+  width: 100vw;
+  height: 35vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2.5rem 1rem 2rem;
-  background-color: black;
+  overflow-x: hidden;
 }
-.SobreMi-titulo .SobreMi-titulo-contenido {
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.SobreMi-titulo .SobreMi-titulo-text {
+.sobremi .sobremi-texto1 {
   color: #fff;
-  font-family: "Pinyon Script", cursive;
   font-size: clamp(1.25rem, 2.8vw, 3.25rem);
+  font-family: "Great Vibes", cursive;
+  text-align: center;
 }
 
 /**/
